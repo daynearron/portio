@@ -1,0 +1,83 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title Dayne-Arron Watai Portfolio
+    %meta{:content => "The HTML5 Herald", :name => "description"}/
+    %meta{:content => "SitePoint", :name => "author"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
+    /[if lt IE 9]
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  %body
+    .border-top.frame
+    .border-right.frame
+    .border-bottom.frame
+    .border-left.frame
+    .container
+      .header   
+        %nav        
+          -# %span
+          -#   Selected Works
+          %h1.logo.transition
+            DAW
+          -# .title
+          -#   %p
+          -#     UX | UI Designer 
+          -#     %br/
+          -#     &amp; Photographer
+        %a.contact.transition{:href => "#"}
+          Create With Me
+      %ul.project-thumb-container
+        %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.project-thmb-02{:"data-ul-class"=>"red"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.project-thmb-03{:"data-ul-class"=>"teal"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.project-thmb-04{:"data-ul-class"=>"gray"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.project-thmb-05{:"data-ul-class"=>"white"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.project-thmb-06{:"data-ul-class"=>"yellow"}
+          %a
+            %detail.type
+              Case Study
+            %h2
+              Project Title
+            %p
+              Project Summary
+        %li.project-thmb.bg
+          &nbsp;
+    %script{:src => "js/scripts.js"}

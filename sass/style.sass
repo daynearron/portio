@@ -1,0 +1,110 @@
+body
+	background: #fafafa
+
+.frame
+	background-color: #fff
+	position: fixed
+
+.border-left,
+.border-right
+	width: 18px
+	height: 100%
+
+.border-top,
+.border-bottom
+	width: 100%
+	height: 18px
+
+.border-left,
+.border-top
+	left: 0
+	top: 0
+
+.border-right,
+.border-bottom
+	right: 0
+	bottom: 0
+
+
+.logo
+	position: relative
+	&:after
+		content: ''
+		display: inline-block
+		// position: absolute
+		// bottom: 0
+		// right: 0
+		width: 120px
+		height: 0.2em
+		margin-top: -0.2em
+		background-color: #666
+		transition: all 0.4s ease-in-out
+
+.project-thmb
+	list-style-type: none
+	.type,
+	h2
+		text-transform: uppercase
+		letter-spacing: 0.05em
+
+nav,
+.contact
+	text-transform: uppercase
+
+.contact
+	text-align: right
+
+.project-thumb-container li a
+	// transition: all 0.3s ease-in-out
+	display: block
+
+.project-thumb-container li
+   transition: all 0.4s ease-in-out
+
+.blue
+	color: shade(#466df7,20%)
+
+.red
+	color: shade(#F25757,20%)
+.teal
+	color: shade(#4BA9D3,20%)
+.gray
+	color: shade(#333336,20%)
+.white
+	color: shade(#fafafa,20%)
+.yellow
+	color: shade(#E2BA21,20%)
+
+
+.transition
+	transition: all 0.4s ease-in-out
+	&-white
+		color: #fff
+		&:after
+			background-color: #fff !important
+
+.project-thumb-container li:hover
+	transition: all 0.1s ease-in-out
+	color: #fff
+	@extend .hvr-float
+
+
+.project-thumb-container li a:active
+	transform: scale(0.99)
+	color: shade(#fff, 2%)
+
+.project-thumb-container li:last-child
+	transition: all 0.4s ease-in-out
+
+.project-thumb-container li:first-child:hover ~ li:last-child
+  background: #466df7
+.project-thumb-container li:nth-child(2):hover ~ li:last-child
+  background: #F25757
+.project-thumb-container li:nth-child(3):hover ~ li:last-child
+  background: #4BA9D3
+.project-thumb-container li:nth-child(4):hover ~ li:last-child
+  background: #333336
+.project-thumb-container li:nth-child(5):hover ~ li:last-child
+  background: #d9d9d9
+.project-thumb-container li:nth-child(6):hover ~ li:last-child
+  background: #E2BA21
