@@ -4,9 +4,10 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{:charset => "utf-8"}/
     %title Dayne-Arron Watai Portfolio
-    %meta{:content => "The HTML5 Herald", :name => "description"}/
-    %meta{:content => "SitePoint", :name => "author"}/
+    %meta{:content => "UI/UX Designer", :name => "description"}/
+    %meta{:content => "DayneWatai", :name => "author"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -18,66 +19,100 @@
     .container
       .header   
         %nav        
-          -# %span
-          -#   Selected Works
           %h1.logo.transition
             DAW
-          -# .title
-          -#   %p
-          -#     UX | UI Designer 
-          -#     %br/
-          -#     &amp; Photographer
-        %a.contact.transition{:href => "#"}
-          Create With Me
+        .contact
+          %a{:href => "", :class=>"transition"}
+            Create With Me
+            .line
+              &nbsp;
+        .project-side-label.transition
+          %span.transition Selected Works
       %ul.project-thumb-container
         %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
           %a
             %detail.type
               Case Study
             %h2
-              Project Title
+              CHM Retail
             %p
-              Project Summary
+              Working together to make lending mortgage more approachable.
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
         %li.project-thmb.project-thmb-02{:"data-ul-class"=>"red"}
           %a
             %detail.type
               Case Study
             %h2
-              Project Title
+              CHM Wholesale
             %p
-              Project Summary
+              Wholesale lending made simple, personal, and quick.
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
         %li.project-thmb.project-thmb-03{:"data-ul-class"=>"teal"}
           %a
             %detail.type
               Case Study
             %h2
-              Project Title
+              Balboa Pacific
             %p
-              Project Summary
+              Independant Insurance Broker
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
         %li.project-thmb.project-thmb-04{:"data-ul-class"=>"gray"}
           %a
             %detail.type
-              Case Study
+              Project
             %h2
-              Project Title
+              Mode Media
             %p
-              Project Summary
-        %li.project-thmb.project-thmb-05{:"data-ul-class"=>"white"}
+              Vertical marketing & content curation platform. 
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
+        %li.project-thmb.project-thmb-05{:"data-ul-class"=>"yellow"}
           %a
             %detail.type
-              Case Study
+              Project
             %h2
-              Project Title
+              MNMLFUN
             %p
-              Project Summary
-        %li.project-thmb.project-thmb-06{:"data-ul-class"=>"yellow"}
+              Branding and collateral for local techno party.
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
+        %li.project-thmb.project-thmb-06{:"data-ul-class"=>"white"}
           %a
             %detail.type
-              Case Study
+              Side Project
             %h2
-              Project Title
+              Photography
             %p
-              Project Summary
+              Editorial, Publications and Portraits by me.
+            .arrow
+              %p
+                View Project
+              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
+                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
+
         %li.project-thmb.bg
           &nbsp;
     %script{:src => "js/scripts.js"}

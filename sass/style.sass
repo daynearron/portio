@@ -1,9 +1,15 @@
 body
 	background: #fafafa
 
+html,
+body,
+a
+	color: #292929
+
 .frame
 	background-color: #fff
 	position: fixed
+	z-index: 999
 
 .border-left,
 .border-right
@@ -28,24 +34,15 @@ body
 
 .logo
 	position: relative
-	&:after
-		content: ''
-		display: inline-block
-		// position: absolute
-		// bottom: 0
-		// right: 0
-		width: 120px
-		height: 0.2em
-		margin-top: -0.2em
-		background-color: #666
-		transition: all 0.4s ease-in-out
 
 .project-thmb
 	list-style-type: none
-	.type,
-	h2
+	.type
 		text-transform: uppercase
 		letter-spacing: 0.05em
+	.type,
+	p
+		opacity: 0.6
 
 nav,
 .contact
@@ -53,26 +50,33 @@ nav,
 
 .contact
 	text-align: right
+	a
+		width: auto
+		display: inline-block
+	a .line
+		transition: all 0.4s ease-in-out
+		height: 1px
+		width: 0px
+		background: #292929
+	a:hover
+		.line
+			width: 100%
 
-.project-thumb-container li a
-	// transition: all 0.3s ease-in-out
-	display: block
 
 .project-thumb-container li
-   transition: all 0.4s ease-in-out
+	transition: all 0.4s ease-in-out
 
-.blue
+.blue li a
 	color: shade(#466df7,20%)
-
-.red
+.red li a
 	color: shade(#F25757,20%)
-.teal
+.teal li a
 	color: shade(#4BA9D3,20%)
-.gray
+.gray li a
 	color: shade(#333336,20%)
-.white
+.white li a
 	color: shade(#fafafa,20%)
-.yellow
+.yellow li a
 	color: shade(#E2BA21,20%)
 
 
@@ -83,10 +87,20 @@ nav,
 		&:after
 			background-color: #fff !important
 
-.project-thumb-container li:hover
-	transition: all 0.1s ease-in-out
+.project-side-label
+	@extend .transition
+
+
+.project-thumb-container li a
+	transition: all 0.4s ease-in-out
+
+.project-thumb-container li:hover a
+	transition: all 0.4s ease-in-out
 	color: #fff
 	@extend .hvr-float
+	.arrow
+		top: 70%
+		opacity: 1
 
 
 .project-thumb-container li a:active
@@ -97,14 +111,14 @@ nav,
 	transition: all 0.4s ease-in-out
 
 .project-thumb-container li:first-child:hover ~ li:last-child
-  background: #466df7
+	background: #466df7
 .project-thumb-container li:nth-child(2):hover ~ li:last-child
-  background: #F25757
+	background: #F25757
 .project-thumb-container li:nth-child(3):hover ~ li:last-child
-  background: #4BA9D3
+	background: #4BA9D3
 .project-thumb-container li:nth-child(4):hover ~ li:last-child
-  background: #333336
+	background: #333336
 .project-thumb-container li:nth-child(5):hover ~ li:last-child
-  background: #d9d9d9
+	background: #E2BA21
 .project-thumb-container li:nth-child(6):hover ~ li:last-child
-  background: #E2BA21
+	background: #d9d9d9
