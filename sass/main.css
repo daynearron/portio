@@ -420,7 +420,7 @@ template {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px); }
 
-body {
+body.welcome {
   background: #fafafa; }
 
 html,
@@ -570,6 +570,9 @@ nav .logo {
 nav p {
   font-size: 1em; }
 
+.project-thmb a {
+  text-decoration: none; }
+
 .project-thmb .type {
   font-size: 0.8em; }
 
@@ -591,7 +594,6 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  height: 100%;
   position: relative; }
   .container::after {
     clear: both;
@@ -601,6 +603,8 @@ body {
     clear: both;
     content: "";
     display: block; }
+  .container.welcome {
+    height: 100%; }
 
 .header {
   margin: 0;

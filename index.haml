@@ -7,16 +7,17 @@
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %link{:href => "css/animsition.min.css", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  %body
+  %body.welcome#barba-wrapper
     .border-top.frame
     .border-right.frame
     .border-bottom.frame
     .border-left.frame
-    .container
+    .barba-container.container.welcome
       .header   
         %nav        
           %h1.logo.transition
@@ -27,10 +28,10 @@
             .line
               &nbsp;
         .project-side-label.transition
-          %span.transition Selected Works
+          %span.transition Selected Works 
       %ul.project-thumb-container
         %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Case Study
             %h2
@@ -44,7 +45,7 @@
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
 
         %li.project-thmb.project-thmb-02{:"data-ul-class"=>"red"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Case Study
             %h2
@@ -58,7 +59,7 @@
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
 
         %li.project-thmb.project-thmb-03{:"data-ul-class"=>"teal"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Case Study
             %h2
@@ -72,7 +73,7 @@
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
 
         %li.project-thmb.project-thmb-04{:"data-ul-class"=>"gray"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Project
             %h2
@@ -86,7 +87,7 @@
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
 
         %li.project-thmb.project-thmb-05{:"data-ul-class"=>"yellow"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Project
             %h2
@@ -100,7 +101,7 @@
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
 
         %li.project-thmb.project-thmb-06{:"data-ul-class"=>"white"}
-          %a
+          %a{:href => "CHMRetail.html", :class => "animsition-link"}
             %detail.type
               Side Project
             %h2
@@ -116,3 +117,8 @@
         %li.project-thmb.bg
           &nbsp;
     %script{:src => "js/scripts.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.10/barba.min.js"}
+    :javascript
+      Barba.Pjax.start();
+
+

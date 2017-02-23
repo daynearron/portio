@@ -1,0 +1,36 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title Dayne-Arron Watai Portfolio
+    %meta{:content => "UI/UX Designer", :name => "description"}/
+    %meta{:content => "DayneWatai", :name => "author"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
+    /[if lt IE 9]
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  %body#barba-wrapper
+    .border-top.frame
+    .border-right.frame
+    .border-left.frame
+    .container.barba-container
+      .header   
+        %nav        
+          %h1.logo.transition
+            DAW
+        .contact
+          %a{:href => "", :class=>"transition"}
+            Create With Me
+            .line
+              &nbsp;
+        .project-side-label.transition
+          %span.transition Selected Works
+    %script{:src => "js/scripts.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.10/barba.min.js"}
+    %script{:src => "js/transition.js"}
+    :javascript
+      window.onload = function() {
+        Barba.Pjax.start();
+      }

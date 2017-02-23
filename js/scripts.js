@@ -8,3 +8,4 @@ $(document).ready(function(){
         $(".transition").removeClass('transition-white'); 
     });
 });
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+    <meta charset='utf-8'>
+    <title>Dayne-Arron Watai Portfolio</title>
+    <meta content='UI/UX Designer' name='description'>
+    <meta content='DayneWatai' name='author'>
+    <link href='css/main.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id='barba-wrapper'>
+    <div class='border-top frame'></div>
+    <div class='border-right frame'></div>
+    <div class='border-left frame'></div>
+    <div class='container barba-container'>
+      <div class='header'>
+        <nav>
+          <h1 class='logo transition'>
+            DAW
+          </h1>
+        </nav>
+        <div class='contact'>
+          <a class='transition' href=''>
+            Create With Me
+            <div class='line'>
+              &nbsp;
+            </div>
+          </a>
+        </div>
+        <div class='project-side-label transition'>
+          <span class='transition'>Selected Works</span>
+        </div>
+      </div>
+    </div>
+    <script src='js/scripts.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.10/barba.min.js'></script>
+    <script src='js/transition.js'></script>
+    <script>
+      window.onload = function() {
+        Barba.Pjax.start();
+      }
+    </script>
+  </body>
+</html>
