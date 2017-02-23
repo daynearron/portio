@@ -1,0 +1,47 @@
+@-webkit-keyframes fade-in-left-sm {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes fade-in-left-sm {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1; } }
+
+.fade-in-left-sm {
+  -webkit-animation-name: fade-in-left-sm;
+          animation-name: fade-in-left-sm; }
+
+@-webkit-keyframes fade-out-left-sm {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0; } }
+
+@keyframes fade-out-left-sm {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0; } }
+
+.fade-out-left-sm {
+  -webkit-animation-name: fade-out-left-sm;
+          animation-name: fade-out-left-sm; }

@@ -61,7 +61,7 @@ nav,
 		background: #292929
 	a:hover
 		.line
-			width: 100%
+			width: calc(100% + 18px)
 
 
 .project-thumb-container li
@@ -89,8 +89,7 @@ nav,
 			background-color: #fff !important
 
 .project-side-label
-	@extend .transition
-
+	transition: all 0.4s ease-in-out
 
 .project-thumb-container li a
 	transition: all 0.4s ease-in-out
@@ -102,7 +101,6 @@ nav,
 	.arrow
 		top: 70%
 		opacity: 1
-
 
 .project-thumb-container li a:active
 	transform: scale(0.99)

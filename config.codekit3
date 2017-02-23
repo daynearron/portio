@@ -935,13 +935,163 @@
 		"oAP": "\/CHMRetail.html",
 		"oF": 0
 		},
-	"\/css\/animsition.min.css": {
+	"\/css\/animsition.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/animsition.min-min.css",
+		"oAP": "\/css\/animsition-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/base.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/base-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-down.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-down-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-left.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-right.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-right-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up-lg.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-lg-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up-sm.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-sm-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade-up.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-up-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/fade\/fade.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/loading.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/loading-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -983,6 +1133,15 @@
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/animsition.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/scripts-min.js": {
 		"ft": 64,
@@ -2888,7 +3047,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509317611,
-	"displayValue": "Portfolio",
+	"displayValue": "portio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},

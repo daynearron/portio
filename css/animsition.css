@@ -1,0 +1,16 @@
+@import "./base.css";
+@import "./loading.css";
+
+@import "./fade/fade.css";
+@import "./fade/fade-up.css";
+@import "./fade/fade-up-sm.css";
+@import "./fade/fade-up-lg.css";
+@import "./fade/fade-down.css";
+@import "./fade/fade-down-sm.css";
+@import "./fade/fade-down-lg.css";
+@import "./fade/fade-left.css";
+@import "./fade/fade-left-sm.css";
+@import "./fade/fade-left-lg.css";
+@import "./fade/fade-right.css";
+@import "./fade/fade-right-sm.css";
+@import "./fade/fade-right-lg.css";

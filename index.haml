@@ -7,17 +7,19 @@
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
-    %link{:href => "css/animsition.min.css", :rel => "stylesheet"}/
+    %link{:href => "css/animsition.css", :rel => "stylesheet"}/
+    / %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/css/animsition.min.css", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
-    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"}
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  %body.welcome#barba-wrapper
+  %body.welcome
     .border-top.frame
     .border-right.frame
     .border-bottom.frame
     .border-left.frame
-    .barba-container.container.welcome
+    .project-side-label
+      %h4.transition Selected Works 
+    .container.welcome.animsition
       .header   
         %nav        
           %h1.logo.transition
@@ -27,8 +29,6 @@
             Create With Me
             .line
               &nbsp;
-        .project-side-label.transition
-          %span.transition Selected Works 
       %ul.project-thumb-container
         %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
           %a{:href => "CHMRetail.html", :class => "animsition-link"}
@@ -116,9 +116,13 @@
 
         %li.project-thmb.bg
           &nbsp;
-    %script{:src => "js/scripts.js"}
-    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/barba.js/0.0.10/barba.min.js"}
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     :javascript
-      Barba.Pjax.start();
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
+    %script{:src => "js/scripts.js"}
+
+
+
 
 
