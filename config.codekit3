@@ -995,6 +995,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/fade\/fade-left-sm-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/fade\/fade-left-sm-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/fade\/fade-left-sm.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3047,7 +3057,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509317611,
-	"displayValue": "portio",
+	"displayValue": "Portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},

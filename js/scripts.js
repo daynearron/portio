@@ -9,7 +9,7 @@ $(function(){
     });
 	//Animsition
 	$(".animsition").animsition({
-		inClass: 'fade-in-down-sm',
+		inClass: 'fade-in-left-sm',
 		outClass: 'fade-out-left-sm',
 		inDuration: 500,
 		outDuration: 500,

@@ -15,7 +15,7 @@
   %body.welcome
     .border-top.frame
     .border-right.frame
-    .border-bottom.frame
+    -# .border-bottom.frame
     .border-left.frame
     .project-side-label
       %h4.transition Selected Works 
@@ -23,99 +23,13 @@
       .header   
         %nav        
           %h1.logo.transition
-            DAW
+            %a{:href => "index.html", :class => "animsition-link"}
+              DAW
         .contact
           %a{:href => "", :class=>"transition"}
             Create With Me
             .line
               &nbsp;
-      %ul.project-thumb-container
-        %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Case Study
-            %h2
-              CHM Retail
-            %p
-              Working together to make lending mortgage more approachable.
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.project-thmb-02{:"data-ul-class"=>"red"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Case Study
-            %h2
-              CHM Wholesale
-            %p
-              Wholesale lending made simple, personal, and quick.
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.project-thmb-03{:"data-ul-class"=>"teal"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Case Study
-            %h2
-              Balboa Pacific
-            %p
-              Independant Insurance Broker
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.project-thmb-04{:"data-ul-class"=>"gray"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Project
-            %h2
-              Mode Media
-            %p
-              Vertical marketing & content curation platform. 
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.project-thmb-05{:"data-ul-class"=>"yellow"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Project
-            %h2
-              MNMLFUN
-            %p
-              Branding and collateral for local techno party.
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.project-thmb-06{:"data-ul-class"=>"white"}
-          %a{:href => "index.html", :class => "animsition-link"}
-            %detail.type
-              Side Project
-            %h2
-              Photography
-            %p
-              Editorial, Publications and Portraits by me.
-            .arrow
-              %p
-                View Project
-              %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
-                %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.bg
-          &nbsp;
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')

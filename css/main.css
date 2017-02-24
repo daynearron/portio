@@ -421,7 +421,7 @@ template {
   transform: translateY(-8px); }
 
 body.welcome {
-  background: #fafafa; }
+  background: #fff; }
 
 html,
 body,
@@ -627,7 +627,7 @@ body {
 .project-side-label {
   display: block;
   position: fixed;
-  z-index: 99999;
+  z-index: 99;
   left: 18px;
   bottom: 150px;
   text-align: center;
@@ -700,7 +700,7 @@ body {
     width: 200%;
     height: 200%;
     position: fixed;
-    top: 0;
+    top: -25%;
     left: -25%;
     z-index: -2;
     margin: 0;
