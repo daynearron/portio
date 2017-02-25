@@ -916,25 +916,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/CHMRetail.haml": {
-		"cDA": 0,
-		"eHT": 0,
-		"ft": 256,
-		"nEA": 0,
-		"oA": 0,
-		"oAP": "\/CHMRetail.html",
-		"oF": 2,
-		"oFM": 2,
-		"oS": 0,
-		"uDQ": 0,
-		"uUN": 0
-		},
-	"\/CHMRetail.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/CHMRetail.html",
-		"oF": 0
-		},
 	"\/css\/animsition.css": {
 		"aP": 1,
 		"bl": 0,
@@ -2842,19 +2823,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/sass\/type.sass": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 2,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/type.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/utilities\/_assign-inputs.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3057,7 +3025,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509317611,
-	"displayValue": "portio",
+	"displayValue": "Portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},

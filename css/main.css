@@ -420,6 +420,73 @@ template {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px); }
 
+.floating, .contact-section .contact-btn:hover span {
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%); }
+  50% {
+    transform: translateY(8%); }
+  100% {
+    transform: translateY(0%); } }
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%); }
+  50% {
+    -webkit-transform: translateY(8%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+.ticker {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  line-height: 24px;
+  height: 24px;
+  box-sizing: unset !important;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ticker;
+  animation-name: ticker;
+  -webkit-animation-duration: 30s;
+  animation-duration: 30s; }
+  .ticker__item {
+    display: inline-block;
+    padding: 0 18px;
+    font-size: 14px;
+    color: #cacaca; }
+    .ticker__item a {
+      color: #292929; }
+      .ticker__item a:hover {
+        color: red; }
+
 body.welcome {
   background: #fff; }
 
@@ -506,9 +573,25 @@ nav,
 .transition, .project-side-label h4, .project-side-label h4:after {
   transition: all 0.4s ease-in-out; }
   .transition-white {
-    color: #fff; }
+    color: #fff;
+    border-color: #fff !important; }
     .transition-white:after {
       background-color: #fff !important; }
+
+.contact-section.transition-white .contact-btn,
+.contact-section.transition-white .about-btn a,
+.contact-section.transition-white .about-btn,
+.contact-section.transition-white .social,
+.contact-section.transition-white .social a,
+.contact-section.transition-white .current-events .ticker-wrapper .ticker .ticker__item,
+.contact-section.transition-white .current-events .ticker-wrapper .ticker .ticker__item a {
+  background-color: transparent;
+  border-color: #fff !important;
+  color: #fff; }
+
+.current-events .ticker-wrapper .ticker .ticker__item,
+.current-events .ticker-wrapper .ticker .ticker__item a {
+  transition: all 0.4s ease-in-out; }
 
 .project-side-label {
   transition: all 0.4s ease-in-out; }
@@ -570,7 +653,9 @@ nav span {
   font-size: 0.8em; }
 
 nav .logo {
-  font-size: 3em; }
+  font-size: 3em;
+  margin: 0;
+  padding: 0; }
   nav .logo a {
     text-decoration: none; }
 
@@ -584,8 +669,10 @@ nav p {
   font-size: 0.8em; }
 
 .project-thmb h2 {
+  font-family: 'Open Sans Light', sans-serif;
   font-size: 1.2em;
-  font-weight: 100; }
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased; }
 
 .project-thmb p {
   font-size: 1em; }
@@ -597,6 +684,9 @@ nav p {
 html,
 body {
   height: 100%; }
+  html *,
+  body * {
+    box-sizing: border-box; }
 
 .container {
   max-width: 960px;
@@ -633,6 +723,112 @@ body {
     width: calc(50% - 30px);
     float: left;
     margin-left: 20px; }
+    .header nav::after,
+    .header .contact::after {
+      clear: both;
+      content: "";
+      display: block; }
+
+.contact-section {
+  border: 1px solid #747474;
+  width: 300px;
+  text-align: left;
+  height: 74px;
+  z-index: 99;
+  overflow: hidden; }
+  .contact-section::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .contact-section *,
+  .contact-section > a {
+    box-sizing: border-box;
+    margin: 0; }
+  .contact-section .contact-btn {
+    width: 25%;
+    height: 100%;
+    line-height: 76px;
+    text-align: center;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #292929;
+    border-right: 1px solid #747474;
+    transition: all 0.4s ease-in-out;
+    color: #fff; }
+    .contact-section .contact-btn span {
+      display: block; }
+    .contact-section .contact-btn:hover {
+      background-color: transparent;
+      color: #292929; }
+      .contact-section .contact-btn:hover span {
+        margin-top: -8%; }
+  .contact-section .current-events {
+    overflow: hidden;
+    position: relative;
+    padding-right: 8px; }
+    .contact-section .current-events .ticker-wrapper {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      height: 100%;
+      display: block;
+      padding-left: 100%;
+      box-sizing: unset; }
+      .contact-section .current-events .ticker-wrapper::after {
+        clear: both;
+        content: "";
+        display: block; }
+  .contact-section .about-btn a {
+    padding-left: 10px; }
+  .contact-section .about-btn,
+  .contact-section .social,
+  .contact-section .current-events {
+    width: 75%;
+    float: right;
+    line-height: 24px;
+    font-size: 14px; }
+  .contact-section .about-btn a {
+    display: block;
+    transition: all 0.4s ease-in-out;
+    border-bottom: 1px solid #747474; }
+  .contact-section .social {
+    padding-bottom: 1px;
+    border-top: 1px solid #747474;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden; }
+    .contact-section .social::after {
+      clear: both;
+      content: "";
+      display: block; }
+    .contact-section .social a {
+      display: block;
+      float: left;
+      width: 33.333333333%;
+      text-align: center;
+      font-size: 10px;
+      z-index: 2;
+      position: relative;
+      transition: all 0.4s ease-in-out; }
+      .contact-section .social a:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: calc(100% - 2px);
+        background-color: #292929;
+        position: absolute;
+        top: 102%;
+        left: 0;
+        z-index: -1;
+        transition: all 0.4s ease-in-out; }
+      .contact-section .social a:last-child:after {
+        width: calc(100% + 2px); }
+      .contact-section .social a:not(:last-child) {
+        border-right: 1px solid #747474; }
+      .contact-section .social a:hover {
+        color: #fff; }
+        .contact-section .social a:hover:after {
+          top: 0; }
 
 .project-side-label {
   display: block;

@@ -7,6 +7,8 @@
 html,
 body
 	height: 100%
+	*
+		box-sizing: border-box
 	
 .container
 	max-width: 960px
@@ -33,6 +35,111 @@ body
 	nav,
 	.contact
 		@include grid-column(6)
+		@include clearfix
+
+.contact-section
+	border: 1px solid tint(#292929, 35%)
+	width: 300px
+	// float: right
+	text-align: left
+	height: 74px
+	z-index: 99
+	overflow: hidden
+	@include clearfix
+	*,
+	> a
+		box-sizing: border-box
+		margin: 0
+	.contact-btn
+		width: 25%
+		height: 100%
+		line-height: 76px
+		text-align: center
+		display: block
+		position: relative
+		float: left
+		background-color: #292929
+		border-right: 1px solid tint(#292929, 35%)
+		transition: all 0.4s ease-in-out
+		color: #fff
+		span
+			display: block
+			// transition: all 0.4s ease-in-out
+		// @include hide-text
+
+		// background-image: url('../img/message.png')
+		// background-repeat: no-repeat
+		// background-position: center right
+		// background-size: 148px 74px
+		&:hover
+			background-color: transparent
+			color: #292929
+			span 
+				margin-top: -8%
+				@extend .floating
+	.current-events
+		overflow: hidden
+		position: relative
+		padding-right: 8px
+		.ticker-wrapper
+			width: 100%
+			position: relative
+			overflow: hidden
+			height: 100%
+			display: block
+			padding-left: 100%  // offset items to begin 
+			box-sizing: unset
+			@include clearfix
+	.about-btn a
+		padding-left: 10px
+	.about-btn,
+	.social,
+	.current-events
+		width: 75%
+		float: right
+		line-height: 24px
+		font-size: 14px
+	.about-btn a
+		display: block
+		transition: all 0.4s ease-in-out
+		border-bottom: 1px solid tint(#292929, 35%)
+	.social
+		padding-bottom: 1px
+		border-top: 1px solid tint(#292929, 35%)
+		transition: all 0.4s ease-in-out
+		overflow: hidden
+		@include clearfix
+		a
+			// background: red
+			display: block
+			float: left
+			width: 33.333333333%
+			text-align: center
+			font-size: 10px
+			z-index: 2
+			position: relative
+			transition: all 0.4s ease-in-out
+			&:after
+				content: ''
+				display: block
+				width: 100%
+				height: calc(100% - 2px)
+				background-color: #292929
+				position: absolute
+				top: 102%
+				left: 0
+				z-index: -1
+				transition: all 0.4s ease-in-out
+			&:last-child:after
+				// background-color: orange
+				width: calc(100% + 2px)
+			&:not(:last-child)
+				border-right: 1px solid tint(#292929, 35%)
+			&:hover
+				color: #fff
+				&:after
+					top: 0
+
 
 .project-side-label
 	display: block

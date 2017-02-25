@@ -15,3 +15,81 @@
 .hvr-float:focus
 	-webkit-transform: translateY(-8px)
 	transform: translateY(-8px)
+
+.floating
+  animation-name: floating
+  -webkit-animation-name: floating
+  animation-duration: 1.5s
+  -webkit-animation-duration: 1.5s
+  animation-iteration-count: infinite
+  -webkit-animation-iteration-count: infinite
+
+@keyframes floating
+  0%
+    transform: translateY(0%)
+
+  50%
+    transform: translateY(8%)
+
+  100%
+    transform: translateY(0%)
+
+
+@-webkit-keyframes floating
+  0%
+    -webkit-transform: translateY(0%)
+
+  50%
+    -webkit-transform: translateY(8%)
+
+  100%
+    -webkit-transform: translateY(0%)
+
+
+$duration: 30s
+
+@-webkit-keyframes ticker
+	0%
+		-webkit-transform: translate3d(0, 0, 0)
+		transform: translate3d(0, 0, 0)
+		visibility: visible
+	100%
+		-webkit-transform: translate3d(-100%, 0, 0)
+		transform: translate3d(-100%, 0, 0)
+
+@keyframes ticker
+	0%
+		-webkit-transform: translate3d(0, 0, 0)
+		transform: translate3d(0, 0, 0)
+		visibility: visible
+	100%
+		-webkit-transform: translate3d(-100%, 0, 0)
+		transform: translate3d(-100%, 0, 0)
+
+.ticker
+	display: inline-block
+	white-space: nowrap // display items in a line
+	padding-right: 100% // ensure items go before animations repeat (taken from parent due to inline-block)
+	line-height: 24px
+	height: 24px
+	// float: left
+	box-sizing: unset !important
+
+	-webkit-animation-iteration-count: infinite 
+	animation-iteration-count: infinite
+	-webkit-animation-timing-function: linear
+	animation-timing-function: linear
+	-webkit-animation-name: ticker
+	animation-name: ticker
+	-webkit-animation-duration: $duration
+	animation-duration: $duration
+	&__item
+		display: inline-block
+		padding: 0 18px
+		font-size: 14px
+		color: tint(#292929, 75%)
+		a
+			color: #292929
+			&:hover
+				color: red
+ 

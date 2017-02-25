@@ -21,14 +21,39 @@
       %h4.transition Selected Works 
     .container.welcome.animsition
       .header   
-        %nav        
-          %h1.logo.transition
-            DAW
+        -# %nav        
+        -#   %h1.logo.transition
+        -#     DAW
         .contact
-          %a{:href => "", :class=>"transition"}
-            Create With Me
-            .line
-              &nbsp;
+          .contact-section.transition
+            %a{:href => "index.html", :class=>"contact-btn"}
+              %span
+                DW
+            .about-btn  
+              %a{:href => "", :class => ""}
+                About Dayne-Arron Watai
+            .current-events
+              .ticker-wrapper
+                .ticker
+                  .ticker__item 
+                    Reading
+                    %a{:href => "https://www.amazon.com/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1", :target =>"_BLANK"}
+                      Cixin Liu - The Three-Body Problem (Remembrance of Earth's Past)
+                  .ticker__item
+                    Listening to 
+                    %a{:href => "https://soundcloud.com/ylxr/glamorous", :taget => "_BLANK"}
+                      ylxr - Glamorous
+                  .ticker__item
+                    Watching
+                    %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
+                      Steven Universe
+            .social
+              %a{:href => "#", :class => ""}
+                Facebook
+              %a{:href => "#", :class => ""}
+                Twitter
+              %a{:href => "#", :class => ""}
+                Instagram
       %ul.project-thumb-container
         %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
           %a{:href => "CHMRetail.html", :class => "animsition-link"}
