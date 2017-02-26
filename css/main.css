@@ -699,7 +699,8 @@ nav p {
 .project-thmb h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  font-weight: 100;
+  font-weight: 900;
+  letter-spacing: 0.98px;
   -webkit-font-smoothing: antialiased; }
 
 .project-thmb p {
