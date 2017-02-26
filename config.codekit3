@@ -1173,6 +1173,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/noise.png": {
+		"ft": 32768,
+		"iS": 49489,
+		"oA": 0,
+		"oAP": "\/img\/noise.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.haml": {
 		"cDA": 0,
 		"eHT": 0,
@@ -3253,7 +3261,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509317611,
-	"displayValue": "portio",
+	"displayValue": "Portfolio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},

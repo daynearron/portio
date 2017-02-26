@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html
 	font-size: 1vw
@@ -16,6 +16,32 @@ h5
 p
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection,
+li::selection,
+span::selection,
+a::selection,
+div::selection,
+detail::selection
+	color:  tint(#635636, 25%)
+	background: transparent
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+p::-moz-selection,
+li::-moz-selection,
+span::-moz-selection,
+a::-moz-selection,
+div::-moz-selection,
+detail::-moz-selection
+	color:  tint(#635636, 25%)
+	background: transparent
+
 nav
 	span
 		font-size: 0.8em
@@ -36,7 +62,7 @@ nav
 	h2
 		font-family: 'Open Sans', sans-serif
 		font-size: 1.2em
-		font-weight: 900
+		font-weight: 100
 		letter-spacing: 0.98px
 		-webkit-font-smoothing: antialiased
 	p
@@ -57,9 +83,12 @@ nav
 
 .sub-title
 	font-size: 2em
-	color: tint(#292929, 45%)
+	// color: tint(#292929, 45%)
+	color: tint(#635636, 10%)
 
 .intro
+	&:first-child
+		box-shadow: 0 0 30px #000
 	h2
 		font-size: 2em
 		-webkit-font-smoothing: antialiased

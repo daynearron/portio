@@ -508,20 +508,20 @@ template {
     padding: 0 18px;
     font-size: 14px;
     letter-spacing: 0.98px;
-    color: #cacaca; }
+    color: #d8d5cd; }
     .ticker__item a {
-      color: #292929;
+      color: #54492e;
       padding-left: 8px; }
       .ticker__item a:hover {
-        color: red; }
+        color: #73674a; }
 
-body.welcome {
-  background: #fff; }
+body {
+  background: #171717; }
 
 html,
 body,
 a {
-  color: #292929; }
+  color: #fafafa; }
 
 .frame {
   background-color: #fff;
@@ -587,7 +587,7 @@ nav,
   color: #c24646; }
 
 .teal li a {
-  color: #3c87a9; }
+  color: #014055; }
 
 .gray li a {
   color: #29292b; }
@@ -605,6 +605,9 @@ nav,
     border-color: #fff !important; }
     .transition-white:after {
       background-color: #fff !important; }
+
+.contact-section {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); }
 
 .contact-section.transition-white .contact-btn,
 .contact-section.transition-white .about-btn a,
@@ -648,7 +651,7 @@ nav,
   background: #F25757; }
 
 .project-thumb-container li:nth-child(3):hover ~ li:last-child {
-  background: #4BA9D3; }
+  background: #01506A; }
 
 .project-thumb-container li:nth-child(4):hover ~ li:last-child {
   background: #333336; }
@@ -677,6 +680,32 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+p::selection,
+li::selection,
+span::selection,
+a::selection,
+div::selection,
+detail::selection {
+  color: #8a8068;
+  background: transparent; }
+
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+p::-moz-selection,
+li::-moz-selection,
+span::-moz-selection,
+a::-moz-selection,
+div::-moz-selection,
+detail::-moz-selection {
+  color: #8a8068;
+  background: transparent; }
+
 nav span {
   font-size: 0.8em; }
 
@@ -699,7 +728,7 @@ nav p {
 .project-thmb h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  font-weight: 900;
+  font-weight: 100;
   letter-spacing: 0.98px;
   -webkit-font-smoothing: antialiased; }
 
@@ -721,7 +750,10 @@ nav p {
 
 .sub-title {
   font-size: 2em;
-  color: #898989; }
+  color: #73674a; }
+
+.intro:first-child {
+  box-shadow: 0 0 30px #000; }
 
 .intro h2 {
   font-size: 2em;
@@ -776,15 +808,15 @@ nav p {
     color: #fef7f7; }
 
 .balboapacific .project-title span {
-  color: #4BA9D3; }
+  color: #01506A; }
 
 .balboapacific .intro-teal {
-  color: #295d74;
-  background-color: #4BA9D3; }
+  color: #012c3a;
+  background-color: #01506A; }
   .balboapacific .intro-teal .project-side-header-label {
-    color: #295d74; }
+    color: #012c3a; }
   .balboapacific .intro-teal h2 {
-    color: #f6fbfd; }
+    color: #f2f6f8; }
 
 .modemedia .project-title span {
   color: #333336; }
@@ -826,8 +858,22 @@ body {
   body * {
     box-sizing: border-box; }
 
+.noise {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: transparent;
+  background-image: url("../img/noise.png");
+  background-repeat: repeat;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
 .container {
-  max-width: 960px;
+  max-width: 1020px;
+  min-width: 960px;
   margin: 0 auto;
   position: relative; }
   .container::after {
@@ -894,7 +940,8 @@ body {
       display: block; }
     .contact-section .contact-btn:hover {
       background-color: transparent;
-      color: #292929; }
+      color: #73674a;
+      text-shadow: 1px 1px 5px #252525; }
       .contact-section .contact-btn:hover span {
         margin-top: -8%; }
   .contact-section .current-events {
@@ -970,7 +1017,8 @@ body {
       .contact-section .social a:not(:last-child) {
         border-right: 1px solid #747474; }
       .contact-section .social a:hover {
-        color: #fff; }
+        color: #73674a;
+        text-shadow: 1px 1px 5px #252525; }
         .contact-section .social a:hover:after {
           top: 0; }
 
@@ -1051,11 +1099,11 @@ body {
   .project-thumb-container p {
     max-width: 90%; }
   .project-thumb-container .bg {
-    width: 200%;
+    width: 250%;
     height: 200%;
     position: fixed;
     top: -25%;
-    left: -25%;
+    left: -50%;
     z-index: -2;
     margin: 0;
     padding: 0; }
