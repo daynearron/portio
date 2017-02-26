@@ -66,6 +66,40 @@ $duration: 30s
 		-webkit-transform: translate3d(-100%, 0, 0)
 		transform: translate3d(-100%, 0, 0)
 
+
+.slideUp
+	animation-name: slideUp
+	-webkit-animation-name: slideUp	
+
+	animation-duration: 0.8s	
+	-webkit-animation-duration: 0.8s
+
+	animation-timing-function: ease	
+	-webkit-animation-timing-function: ease
+
+	visibility: visible !important
+
+@keyframes slideUp 
+	0% 
+		transform: translateY(100%)
+		opacity: 0
+	100% 
+		transform: translateY(0%)
+		opacity: 1
+
+@-webkit-keyframes slideUp 
+	0% 
+		-webkit-transform: translateY(100%)
+		opacity: 0
+	100% 
+		-webkit-transform: translateY(0%)
+		opacity: 1
+
+
+
+
+
+
 .ticker
 	display: inline-block
 	white-space: nowrap // display items in a line
@@ -87,9 +121,12 @@ $duration: 30s
 		display: inline-block
 		padding: 0 18px
 		font-size: 14px
+		letter-spacing: 0.98px
 		color: tint(#292929, 75%)
 		a
 			color: #292929
+			padding-left: 8px
+			// font-weight: lighter
 			&:hover
 				color: red
  

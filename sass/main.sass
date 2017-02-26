@@ -3,6 +3,14 @@
 @import "animation";
 @import "style";
 @import "type";
+@import "retail";
+@import "wholesale";
+@import "balboapacific";
+@import "modemedia";
+@import "mnmlfun";
+@import "photography";
+
+
 
 html,
 body
@@ -32,11 +40,10 @@ body
 	margin: 0
 	padding: 6em 0 0 0
 	@include grid-container
-	nav,
 	.contact
-		@include grid-column(6)
+		margin: 0
+		// @include grid-column(12)
 		@include clearfix
-
 .contact-section
 	border: 1px solid tint(#292929, 35%)
 	width: 300px
@@ -103,6 +110,16 @@ body
 		display: block
 		transition: all 0.4s ease-in-out
 		border-bottom: 1px solid tint(#292929, 35%)
+		overflow: hidden
+		position: relative
+		background-repeat: no-repeat
+		background-size: 16px
+		background-position: 195px center
+		&:hover
+			background-image: url("../img/arrow-forward.svg")
+			background-position: 200px center
+			background-color: #292929
+			color: #fff
 	.social
 		padding-bottom: 1px
 		border-top: 1px solid tint(#292929, 35%)
@@ -180,6 +197,7 @@ body
 
 .project-thumb-container
 	margin: 0
+	padding: 0
 	position: absolute
 	bottom: 3em
 	@include clearfix
@@ -228,3 +246,33 @@ body
 		margin: 0
 		padding: 0
 
+.project-title-block
+	padding-top: 75px
+
+.project-title
+	margin-left: 0 !important
+	padding-bottom: 50px
+	// @include grid-column(8)
+	.title
+		margin-top: 0
+		padding: 0
+		margin-bottom: 35px
+
+.intro
+	width: 100%
+	padding: 6em 0
+	// padding-bottom: 50px
+	.intro-copy
+		padding: 3em 0 1em 0
+		max-width: 80%
+
+
+.left-column,
+.right-column
+	float: left
+	width: 50%
+	display: block
+	min-height: 45px
+
+section:not(.head-section)
+	min-height: 100%

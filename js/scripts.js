@@ -10,7 +10,7 @@ $(function(){
 	//Animsition
 	$(".animsition").animsition({
 		inClass: 'fade-in-left-sm',
-		outClass: 'fade-out-left-sm',
+		outClass: 'fade-out-down-sm',
 		inDuration: 500,
 		outDuration: 500,
 		linkElement: '.animsition-link',
