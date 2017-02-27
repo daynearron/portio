@@ -28,6 +28,8 @@ a::selection,
 div::selection,
 detail::selection
 	color:  tint(#635636, 25%)
+	border-top: 1px solid #635636
+	border-bottom: 1px solid #635636
 	background: transparent
 h1::-moz-selection,
 h2::-moz-selection,
@@ -58,7 +60,10 @@ nav
 	a
 		text-decoration: none
 	.type
-		font-size: 0.8em
+		font-size: 1em
+		font-weight: bold
+		letter-spacing: 0.98px
+
 	h2
 		font-family: 'Open Sans', sans-serif
 		font-size: 1.2em
@@ -77,18 +82,24 @@ nav
 	font-family: 'Open Sans', sans-serif
 	-webkit-font-smoothing: antialiased
 	font-weight: 100
+
+.project-side-header-label
+	color: tint(#635636, 10%)
 	
+
 .title
 	font-size: 6em
 
 .sub-title
 	font-size: 2em
 	// color: tint(#292929, 45%)
-	color: tint(#635636, 10%)
+	// color: tint(#635636, 10%)
+	color: #fff
+	opacity: 0.8
 
 .intro
 	&:first-child
-		box-shadow: 0 0 30px #000
+		box-shadow: 0 0 30px rgba(0,0,0,0.3)
 	h2
 		font-size: 2em
 		-webkit-font-smoothing: antialiased

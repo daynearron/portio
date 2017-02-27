@@ -9,7 +9,7 @@ a
 	color: #fafafa
 
 .frame
-	background-color: #fff
+	background-color: #000
 	position: fixed
 	z-index: 999
 
@@ -45,7 +45,8 @@ a
 	.type,
 	p
 		opacity: 0.6
-
+	span
+		color: #635636
 nav,
 .contact
 	text-transform: uppercase
@@ -68,17 +69,23 @@ nav,
 .project-thumb-container li
 	transition: all 0.4s ease-in-out
 
-.blue li a
-	color: shade(#466df7,20%)
-.red li a
-	color: shade(#F25757,20%)
-.teal li a
+.blue li a,
+.blue li a span
+	color: shade(#0056B8,20%)
+.red li a,
+.red li a span
+	color: shade(#e2231a,20%)
+.teal li a,
+.teal li a span
 	color: shade(#01506A,20%)
-.gray li a
+.gray li a,
+.gray li a span
 	color: shade(#333336,20%)
-.white li a
+.white li a,
+.white li a span
 	color: shade(#fafafa,20%)
-.yellow li a
+.yellow li a,
+.yellow li a span
 	color: shade(#E2BA21,20%)
 
 
@@ -113,7 +120,8 @@ nav,
 .project-side-label
 	transition: all 0.4s ease-in-out
 
-.project-thumb-container li a
+.project-thumb-container li a,
+.project-thumb-container li a span
 	transition: all 0.4s ease-in-out
 
 .project-thumb-container li:hover a
@@ -123,6 +131,8 @@ nav,
 	.arrow
 		top: 70%
 		opacity: 1
+	span
+		color: #fff
 
 .project-thumb-container li a:active
 	transform: scale(0.99)
@@ -132,9 +142,9 @@ nav,
 	transition: all 0.4s ease-in-out
 
 .project-thumb-container li:first-child:hover ~ li:last-child
-	background: #466df7
+	background: #0056B8
 .project-thumb-container li:nth-child(2):hover ~ li:last-child
-	background: #F25757
+	background: tint(#e2231a, 12%)
 .project-thumb-container li:nth-child(3):hover ~ li:last-child
 	background: #01506A
 .project-thumb-container li:nth-child(4):hover ~ li:last-child
