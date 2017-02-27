@@ -560,7 +560,7 @@ a {
   .project-thmb p {
     opacity: 0.6; }
   .project-thmb span {
-    color: #635636; }
+    color: #8a8068; }
 
 nav,
 .contact {
@@ -777,7 +777,6 @@ nav p {
 .intro h2 {
   font-size: 2em;
   -webkit-font-smoothing: antialiased;
-  padding-top: 2em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   max-width: 90%; }
@@ -1144,7 +1143,6 @@ body {
   width: 100%;
   padding: 6em 0; }
   .intro .intro-copy {
-    padding: 3em 0 1em 0;
     max-width: 80%; }
   .intro.section-white {
     z-index: 999;
