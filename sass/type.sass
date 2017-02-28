@@ -56,7 +56,8 @@ nav
 	p
 		font-size: 1em
 		
-.project-thmb
+.project-thmb,
+.footer-project-nav
 	a
 		text-decoration: none
 	.type
@@ -122,8 +123,32 @@ nav
 		padding-left: 18px
 		li
 			padding-bottom: 18px
+		&-quad
+			max-width: 100%
+			padding-top: 36px
+			padding-left: 0px
+			li
+				list-style-position: inside
+				width: calc(50% - 15px)
+				float: left
+				padding-right: 18px
+				p
+					padding-top: 18px
+					font-size: 0.98em
+					max-width: 90%
+					color: tint(#262626, 55%)
+				&:nth-child(2n+1)
+					// border: 1px solid red
+					clear: both
+					margin-right: 30px
 		
 
 .project-side-header-label
 	letter-spacing: 0.98px
 	text-transform: uppercase
+
+.footer-project-nav
+	li
+		list-style-type: none
+		a 
+			text-decoration: none
