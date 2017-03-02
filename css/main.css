@@ -1270,3 +1270,23 @@ body {
   position: relative;
   overflow: hidden;
   width: 100%; }
+
+.quotes-quad {
+  width: 100%;
+  padding: 2em 0;
+  margin: 0;
+  font-size: 1.2em; }
+  .quotes-quad::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .quotes-quad-white {
+    color: #fff; }
+  .quotes-quad li {
+    list-style-type: none;
+    float: left;
+    width: 25%;
+    margin: 0; }
+    .quotes-quad li span {
+      display: block;
+      font-weight: 100; }
