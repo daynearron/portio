@@ -606,7 +606,8 @@ nav,
 .yellow li a span {
   color: #b5951a; }
 
-.transition, .project-side-label h4, .project-side-label h4:after {
+.transition, .retail .loan-process li, .retail .loan-process li p,
+.retail .loan-process li div, .project-side-label h4, .project-side-label h4:after {
   transition: all 0.4s ease-in-out; }
   .transition-white {
     color: #fff;
@@ -783,7 +784,7 @@ nav p {
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  max-width: 90%; }
+  max-width: 85%; }
 
 .intro p,
 .intro .intro-copy-list {
@@ -798,7 +799,7 @@ nav p {
   margin: 0;
   padding: 0;
   font-size: 1.2em;
-  max-width: 75%;
+  max-width: 80%;
   padding-left: 18px; }
   .intro .intro-copy-list li {
     padding-bottom: 18px; }
@@ -832,16 +833,68 @@ nav p {
   .footer-project-nav li a {
     text-decoration: none; }
 
+.md-copy {
+  font-size: 10px; }
+
 .retail .project-title span {
   color: #004593; }
 
+.retail .canvas-wrap {
+  margin: 0 auto;
+  padding-top: 2em; }
+
 .retail .intro-blue {
   color: #002f65;
-  background-color: #004593; }
+  background-color: #3378c6; }
   .retail .intro-blue .project-side-header-label {
     color: #002f65; }
   .retail .intro-blue h2 {
     color: #f2f7fb; }
+
+.retail .loan-process {
+  width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+  color: #262626;
+  height: 150px;
+  overflow: hidden;
+  white-space: nowrap; }
+  .retail .loan-process::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .retail .loan-process li {
+    height: 100%;
+    list-style-type: none;
+    padding: 18px;
+    float: left;
+    width: calc(100% / 8);
+    text-align: center;
+    background-color: #f2f7fb;
+    color: #a6c4e6;
+    position: relative; }
+    .retail .loan-process li p {
+      margin-top: 75px;
+      transform: translateY(-25px);
+      z-index: 2;
+      position: relative;
+      display: block; }
+    .retail .loan-process li div {
+      z-index: 1;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      display: block;
+      font-size: 150px;
+      line-height: 150px;
+      text-align: center;
+      width: 100%;
+      color: #ebf1f9; }
+    .retail .loan-process li:hover p {
+      color: #0054b4; }
+    .retail .loan-process li:hover div {
+      color: #85aedd; }
 
 .wholesale .project-title span {
   color: #e53d35; }
@@ -919,8 +972,7 @@ body {
   z-index: 1; }
 
 .container {
-  max-width: 1020px;
-  min-width: 960px;
+  max-width: 68em;
   margin: 0 auto;
   position: relative; }
   .container::after {
@@ -1205,7 +1257,13 @@ body {
   float: left;
   width: 50%;
   display: block;
-  min-height: 45px; }
+  position: relative;
+  min-height: 100%; }
+  .left-column::after,
+  .right-column::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .head-section {
   display: block;

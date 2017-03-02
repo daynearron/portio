@@ -76,25 +76,28 @@
       %section.intro.section-white
         .container
           .left-column
+            %span.circle.circle-top
+              &nbsp;
           .right-column 
             .project-side-header-label
               %h4
                 The Challenge             
             %h2
-              The first step was to get everyone on the same page by clearly defining the problem.
-            %ul.intro-copy-list
-              %li
-                %p
-                  %strong How do we 
-                  make the complexities of mortgages easily understandable?
-              %li
-                %p
-                  %strong How could we 
-                  streamline the day-to-day workflow of mortgage and loan officers, to reinforce the reliability and care of Commerce Home Mortgage?
-              %li
-                %p
-                  %strong How would we 
-                  go about emphasizing the diverse culture at Commerce Home Mortgage?
+              The first step: get everyone on the same page by clearly defining the problem.
+            .md-copy  
+              %ul.intro-copy-list
+                %li
+                  %p
+                    %strong How do we 
+                    make the complexities of mortgages easily understandable?
+                %li
+                  %p
+                    %strong How could we 
+                    streamline the day-to-day workflow of mortgage and loan officers, to reinforce the reliability and care of Commerce Home Mortgage?
+                %li
+                  %p
+                    %strong How would we 
+                    go about emphasizing the diverse culture at Commerce Home Mortgage?
       %section.intro.intro-blue
         .container
           .left-column  
@@ -108,10 +111,11 @@
             %p.intro-copy
               With team members working remotely, living on different coasts—and even different countries—we communicated with each other effectively through Google Hangouts, Skype and email. We tracked our progress and organized tasks with Trello and a project tracker developed in-house. 
           .right-column
+            .canvas-wrap  
+              %canvas#roles{:height => "400", :width => "400"}
       %section.intro.section-white
         .container
           .left-column
-          .right-column
             .project-side-header-label
               %h4
                 The Process 
@@ -123,25 +127,68 @@
               Because our team comprised mostly of external vendors and contractors, the best way to get started was to immerse ourselves to better understand the mortgage process. 
             %p.intro-copy
               Interviews with the marketing team had a wealth of information for us, but to get to the core we shadowed the day-to-day workflow of a loan officer—the main point of contact for anyone seeking a loan.
-            %p.intro-copy
-              %strong Foundational Research:
-            %ul.intro-copy-list
-              %li
-                %p 
-                  %strong Identify key project stakeholders: 
-                  the company, the loan officer, the client
-              %li
-                %p 
-                  %strong Interview loan officers 
-                  about their day-to-day workflow and interactions with current clients and potential clients.
-              %li
-                %p 
-                  %strong Map out 
-                  the full mortgage application process.
-              %li
-                %p 
-                  %strong Interview 
-                  to existing and potential clients  about their current experience.
+          .right-column
+            .md-copy
+              %p.intro-copy
+                %strong Foundational Research:
+              %ul.intro-copy-list
+                %li
+                  %p 
+                    %strong Identify key project stakeholders: 
+                    the company, the loan officer, the client
+                %li
+                  %p 
+                    %strong Interview loan officers 
+                    about their day-to-day workflow and interactions with current clients and potential clients.
+                %li
+                  %p 
+                    %strong Map out 
+                    the full mortgage application process.
+                %li
+                  %p 
+                    %strong Interview 
+                    to existing and potential clients  about their current experience.
+      %ol.loan-process
+        %li
+          %p
+            Loan Application
+          %div
+            1
+        %li
+          %p
+            Disclosure Team
+          %div
+            2
+        %li
+          %p
+            Processing
+          %div
+            3
+        %li
+          %p
+            Underwriting
+          %div
+            4
+        %li
+          %p
+            Conditional Loan Approval
+          %div
+            5
+        %li
+          %p
+            Final Loan Approval
+          %div
+            6
+        %li
+          %p
+            Closing      
+          %div
+            7
+        %li
+          %p
+            Funding
+          %div
+            8
       %section.intro.intro-blue
         .container
           .left-column
@@ -152,19 +199,20 @@
               Getting real insight
             %p.intro-copy
               We sat down with 3 loan officers and interviewed them about key aspects of their workflow and client interactions. 
-            %ul.intro-copy-list
-              %li
-                Lead generation
-              %li
-                Client goals and values
-              %li
-                Frequently asked client questions
-              %li
-                Communication
-              %li
-                Pain points in existing system
-              %li
-                General feedback
+            .md-copy
+              %ul.intro-copy-list
+                %li
+                  Lead generation
+                %li
+                  Client goals and values
+                %li
+                  Frequently asked client questions
+                %li
+                  Communication
+                %li
+                  Pain points in existing system
+                %li
+                  General feedback
           .right-column 
       %section.intro.section-white
         .container
@@ -318,12 +366,64 @@
                     %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}                          
     .noise
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+
+      var ctx = document.getElementById("roles");
+      var data = {
+          labels: [
+              "UX Research",
+              "UI",
+              "Visual Designer",
+              "Front-End Development",
+              "Marketing Research",
+              "Social Media"
+          ],
+          datasets: [
+            {
+              data: [40, 50, 20, 70, 10, 10],
+              backgroundColor: [
+                "#003c81",
+                "#002b5c",
+                "#00224a",
+                "#001a37",
+                "#003c81",
+                "#004da6"
+              ],
+              hoverBackgroundColor: [
+                  "#002f65",
+                  "#002f65",
+                  "#002f65",
+                  "#002f65",
+                  "#002f65",
+                  "#002f65"  
+              ]
+            }]
+      };
+      var myDoughnutChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: data,
+        options: {
+          legend: {
+            display: true,
+            position: "bottom",
+            labels: {
+                fontColor: '#fafafa'
+            }
+          },
+          animation:{
+              animateScale:true
+          },
+          elements: {
+            arc: {
+              borderColor: "transparent"
+            }
+          }
+        }
+      });
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
     %script{:src => "js/scripts.js"}
-
-
 
 
 

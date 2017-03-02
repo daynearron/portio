@@ -2,12 +2,69 @@
 	.project-title
 		span
 			color: shade(#0056B8,20%)
+	.canvas-wrap
+		margin: 0 auto
+		padding-top: 2em
 	.intro
 		&-blue
 			color: shade(#0056B8, 45%)
-			background-color: shade(#0056B8,20%)
+			background-color: tint(#0056B8,20%)
 			@extend .slideUp
 			.project-side-header-label
 				color: shade(#0056B8, 45%)
 			h2
 				color: tint(#0056B8, 95%)
+	.loan-process
+		width: calc(100% - 36px)
+		margin: 0 auto
+		padding: 0
+		background-color: #fff
+		color: #262626
+		height: 150px
+		overflow: hidden
+		white-space: nowrap
+		// box-shadow: -5px 0px 5px black
+		@include clearfix
+		li
+			height: 100%
+			list-style-type: none
+			padding: 18px
+			float: left
+			width: calc(100% / 8)
+			// border: 1px solid red
+			text-align: center
+			// padding-top: 50%
+			background-color: tint(#0056B8, 95%)
+			color: tint(#0056B8, 65%)
+			position: relative
+			@extend .transition
+			p
+				margin-top: 75px
+				transform: translateY(-25px)
+				z-index: 2
+				position: relative
+				display: block
+			div
+				z-index: 1
+				position: absolute
+				top: 1px
+				left: 1px
+				display: block
+				font-size: 150px
+				line-height: 150px
+				text-align: center
+				width: 100%
+				color: tint(#0056B8, 92%)
+			p,
+			div
+				@extend .transition
+			&:hover
+				p
+					color: shade(#0056B8, 2%)
+				div
+					color: tint(#0056B8, 52%)
+
+
+
+
+

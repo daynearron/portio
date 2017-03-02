@@ -32,8 +32,9 @@ body
 	z-index: 1
 	
 .container
-	max-width: 1020px
-	min-width: 960px
+	// max-width: 1020px
+	// min-width: 960px
+	max-width: 68em
 	margin: 0 auto
 	// height: 100%
 	position: relative
@@ -306,7 +307,10 @@ body
 	float: left
 	width: 50%
 	display: block
-	min-height: 45px
+	// min-height: 45px
+	position: relative
+	min-height: 100%
+	@include clearfix
 
 // section:not(.head-section)
 // 	min-height: 100%
@@ -318,6 +322,37 @@ body
 	width: 100%
 
 
+//cirlces
+
+// .circle
+// 	// padding: 35px 18px
+// 	line-height: 150px
+// 	text-align: center
+// 	border: 1px solid #262626
+// 	width: 150px
+// 	height: 150px
+// 	display: block
+// 	border-radius: 150px
+// 	position: relative
+// 	margin: 15% auto
+// 	&:before,
+// 	&:after
+// 		// content: 'hi'
+// 		line-height: 150px
+// 		text-align: center
+// 		border: 1px solid #262626
+// 		width: 150px
+// 		height: 150px
+// 		display: block
+// 		border-radius: 150px
+// 		position: absolute
+// 		top: 100px
+// 	&:before
+// 		// content: 'Streamline'
+// 		left: -75px
+// 	&:after
+// 		// content: 'Diversify'
+// 		right: -75px
 
 
 
