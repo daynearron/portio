@@ -896,6 +896,9 @@ nav p {
     .retail .loan-process li:hover div {
       color: #85aedd; }
 
+.retail .section-wireframe {
+  background-image: url("../img/retail/wire-bg.png"); }
+
 .wholesale .project-title span {
   color: #e53d35; }
 
@@ -1258,7 +1261,7 @@ body {
     max-width: 80%; }
   .intro.section-white {
     z-index: 999;
-    background: #fff;
+    background-color: #fff;
     color: #5c5c5c; }
 
 .left-column,
@@ -1300,9 +1303,89 @@ body {
       display: block;
       font-weight: 100; }
 
+.section-wireframe {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container-examples {
+  padding: 2em 0em;
+  overflow: hidden; }
+  .container-examples:hover .browser,
+  .container-examples:hover .browser-mobile {
+    opacity: 0.1; }
+
 .placeholder-img {
   border: 1px solid #262626;
   display: block;
   width: 100%;
   height: 200px;
   margin-bottom: 3em; }
+
+.browser-mobile,
+.browser {
+  transition: all 0.4s ease-in-out; }
+
+.browser-mobile {
+  width: 20%;
+  float: left;
+  border-radius: 3px;
+  border: 1px solid #ECECEC;
+  margin-left: -2%;
+  position: relative;
+  margin-top: 4%;
+  background-color: #fff; }
+  .browser-mobile img {
+    max-width: 100%; }
+  .browser-mobile:hover {
+    margin-left: 2%;
+    opacity: 1 !important; }
+
+.browser {
+  width: 40%;
+  float: left;
+  border: 1px solid #ECECEC;
+  border-radius: 3px;
+  position: relative;
+  background: #fff; }
+  .browser-full {
+    width: 100%; }
+  .browser:hover {
+    opacity: 1 !important; }
+  .browser:first-child {
+    z-index: 9; }
+  .browser:not(:first-child) {
+    z-index: 1;
+    margin-left: -2%;
+    margin-top: 2%; }
+    .browser:not(:first-child):hover {
+      margin-left: 2%; }
+  .browser .browser-header {
+    display: block;
+    height: 16px; }
+    .browser .browser-header .browser-header-btns {
+      padding: 5px 0;
+      position: relative;
+      width: 50px; }
+      .browser .browser-header .browser-header-btns .dots {
+        display: block;
+        background: #ececec;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        position: relative;
+        margin: 0px auto; }
+        .browser .browser-header .browser-header-btns .dots:before, .browser .browser-header .browser-header-btns .dots:after {
+          content: '';
+          display: block;
+          background: #ececec;
+          width: 6px;
+          height: 6px;
+          border-radius: 100%;
+          position: absolute; }
+        .browser .browser-header .browser-header-btns .dots:before {
+          left: -12px; }
+        .browser .browser-header .browser-header-btns .dots:after {
+          right: -12px; }
+  .browser img {
+    max-width: 100%; }

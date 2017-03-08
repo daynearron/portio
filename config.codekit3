@@ -1747,6 +1747,198 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/retail\/hp-mock-exploration-2.png": {
+		"ft": 32768,
+		"iS": 937374,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-mock-exploration-2.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-mock-exploration-mb-2.png": {
+		"ft": 32768,
+		"iS": 446838,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-mock-exploration-mb-2.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-mock-exploration-mb.png": {
+		"ft": 32768,
+		"iS": 350153,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-mock-exploration-mb.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/hp-mock-exploration.png": {
+		"ft": 32768,
+		"iS": 2876814,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-mock-exploration.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-mock.png": {
+		"ft": 32768,
+		"iS": 2362656,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-mock.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/hp-sketch.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-sketch.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-wire-01.png": {
+		"ft": 32768,
+		"iS": 31020,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-wire-01.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-wire-02-m.png": {
+		"ft": 32768,
+		"iS": 23270,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-wire-02-m.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/hp-wire-02.png": {
+		"ft": 32768,
+		"iS": 69593,
+		"oA": 0,
+		"oAP": "\/img\/retail\/hp-wire-02.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/join-final.jpg": {
+		"ft": 16384,
+		"iS": 2894109,
+		"oA": 0,
+		"oAP": "\/img\/retail\/join-final.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/join-us-mock.png": {
+		"ft": 32768,
+		"iS": 1693189,
+		"oA": 0,
+		"oAP": "\/img\/retail\/join-us-mock.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/SliderAnimation.gif": {
+		"ft": 4194304,
+		"iS": 11788513,
+		"oA": 0,
+		"oAP": "\/img\/retail\/SliderAnimation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wire-bg.png": {
+		"ft": 32768,
+		"iS": 259168,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wire-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-001.png": {
+		"ft": 32768,
+		"iS": 227120,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-001.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-002.png": {
+		"ft": 32768,
+		"iS": 557920,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-002.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/wireframes\/wire-003.png": {
+		"ft": 32768,
+		"iS": 466531,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-003.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-004.png": {
+		"ft": 32768,
+		"iS": 227110,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-004.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-005.png": {
+		"ft": 32768,
+		"iS": 86882,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-005.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/wireframes\/wire-006.png": {
+		"ft": 32768,
+		"iS": 109114,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-006.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-007.png": {
+		"ft": 32768,
+		"iS": 23270,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-007.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/wireframes\/wire-008.png": {
+		"ft": 32768,
+		"iS": 36844,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-008.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/wireframes\/wire-009.png": {
+		"ft": 32768,
+		"iS": 147977,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-009.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-010.png": {
+		"ft": 32768,
+		"iS": 373084,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-010.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/retail\/wireframes\/wire-011.png": {
+		"ft": 32768,
+		"iS": 69593,
+		"oA": 0,
+		"oAP": "\/img\/retail\/wireframes\/wire-011.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.haml": {
 		"cDA": 0,
 		"eHT": 0,
