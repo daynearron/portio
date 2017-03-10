@@ -15,137 +15,138 @@
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   %body.modemedia
-    .border-top.frame
-    .border-right.frame
-    .border-bottom.frame
-    .border-left.frame
-    %section.head-section
-      .container.animsition
-        .header   
-          .contact
-            .contact-section.transition
-              %a{:href => "index.html", :class=>"contact-btn animsition-link"}
-                %span
-                  DW
-              .about-btn  
-                %a{:href => "", :class => ""}
-                  About Dayne-Arron Watai
-              .current-events
-                .ticker-wrapper
-                  .ticker
-                    .ticker__item 
-                      Reading
-                      %a{:href => "https://www.amazon.com/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1", :target =>"_BLANK"}
-                        Cixin Liu - The Three-Body Problem (Remembrance of Earth's Past)
-                    .ticker__item
-                      Listening to 
-                      %a{:href => "https://soundcloud.com/workoutclub/thinkin", :target => "_BLANK"}
-                        Workout Club - Thinkin'
-                    .ticker__item
-                      Watching
-                      %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
-                        Steven Universe
-              .social
-                %a{:href => "#", :class => ""}
-                  Facebook
-                %a{:href => "#", :class => ""}
-                  Twitter
-                %a{:href => "#", :class => ""}
-                  Instagram
-          .project-title-block  
-            .project-side-header-label
-              %h4 Project Pieces
-            .project-title  
-              %h2.title
-                Mode
-                %span
-                  Media
-              %h3.sub-title
-                Vertical marketing & content curation platform.
-    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000"}    
-      %section.intro.intro-dark
-        .container
-          .project-side-header-label
-            %h4
-              Overview
-          .left-column
-            %h2.intro-header
-              Buying a home is a complex and emotional experience that can be difficult to tackle. 
-            %p.intro-copy
-              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.
-          .right-column
-      %section.intro.section-white
-        .container
-          .left-column 
+    .wrapper.scrollbar-dynamic
+      .border-top.frame
+      .border-right.frame
+      .border-bottom.frame
+      .border-left.frame
+      %section.head-section
+        .container.animsition
+          .header   
+            .contact
+              .contact-section.transition
+                %a{:href => "index.html", :class=>"contact-btn animsition-link"}
+                  %span
+                    DW
+                .about-btn  
+                  %a{:href => "", :class => ""}
+                    About Dayne-Arron Watai
+                .current-events
+                  .ticker-wrapper
+                    .ticker
+                      .ticker__item 
+                        Reading
+                        %a{:href => "https://www.amazon.com/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1", :target =>"_BLANK"}
+                          Cixin Liu - The Three-Body Problem (Remembrance of Earth's Past)
+                      .ticker__item
+                        Listening to 
+                        %a{:href => "https://soundcloud.com/workoutclub/thinkin", :target => "_BLANK"}
+                          Workout Club - Thinkin'
+                      .ticker__item
+                        Watching
+                        %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
+                          Steven Universe
+                .social
+                  %a{:href => "#", :class => ""}
+                    Facebook
+                  %a{:href => "#", :class => ""}
+                    Twitter
+                  %a{:href => "#", :class => ""}
+                    Instagram
+            .project-title-block  
+              .project-side-header-label
+                %h4 Project Pieces
+              .project-title  
+                %h2.title
+                  Mode
+                  %span
+                    Media
+                %h3.sub-title
+                  Vertical marketing & content curation platform.
+      .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000"}    
+        %section.intro.intro-dark
+          .container
             .project-side-header-label
               %h4
-                Projects
-            %h2.intro-header
-              This is the Project Title
-            .tags
-              .tag
-                %p
-                  UI
-              .tag
-                %p
-                  UX
-              .tag
-                %p
-                  Front-End Dev
-              .tag
-                %p
-                  Straight Fuckery
-            %p.intro-copy
-              This is a paragraph or two about how fucked this whole fucking fuck fuck is.
-            %a{:href => "#", :class => "launch-btn"}
-              Launch Site
-          .right-column 
-            .project-carousel  
-              .owl-carousel.desktop.desktop-landing
-                %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                -# .browser-outline
-                -#   .browser-header
-                -#     .browser-header-btns 
-                -#       .dots
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
-              .project-carousel-mobile 
-                .project-carousel-mobile-wrapper  
-                  .owl-carousel.mobile.mobile-landing
-                    %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
-      %section.intro.section-white
-        .container
-          .left-column 
-          .right-column 
-            .project-carousel  
-              .owl-carousel.desktop.desktop-portal
-                %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                -# .browser-outline
-                -#   .browser-header
-                -#     .browser-header-btns 
-                -#       .dots
-                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
-              .project-carousel-mobile 
-                .project-carousel-mobile-wrapper  
-                  .owl-carousel.mobile.mobile-portal
-                    %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
-                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
-                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
+                Overview
+            .left-column
+              %h2.intro-header
+                Buying a home is a complex and emotional experience that can be difficult to tackle. 
+              %p.intro-copy
+                Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.
+            .right-column
+        %section.intro.section-white
+          .container
+            .left-column 
+              .project-side-header-label
+                %h4
+                  Projects
+              %h2.intro-header
+                This is the Project Title
+              .tags
+                .tag
+                  %p
+                    UI
+                .tag
+                  %p
+                    UX
+                .tag
+                  %p
+                    Front-End Dev
+                .tag
+                  %p
+                    Straight Fuckery
+              %p.intro-copy
+                This is a paragraph or two about how fucked this whole fucking fuck fuck is.
+              %a{:href => "#", :class => "launch-btn"}
+                Launch Site
+            .right-column 
+              .project-carousel  
+                .owl-carousel.desktop.desktop-landing
+                  %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                  %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                  %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                  -# .browser-outline
+                  -#   .browser-header
+                  -#     .browser-header-btns 
+                  -#       .dots
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
+                .project-carousel-mobile 
+                  .project-carousel-mobile-wrapper  
+                    .owl-carousel.mobile.mobile-landing
+                      %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                      %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                      %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
+        %section.intro.section-white
+          .container
+            .left-column 
+            .right-column 
+              .project-carousel  
+                .owl-carousel.desktop.desktop-portal
+                  %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                  %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                  %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                  -# .browser-outline
+                  -#   .browser-header
+                  -#     .browser-header-btns 
+                  -#       .dots
+                  %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
+                .project-carousel-mobile 
+                  .project-carousel-mobile-wrapper  
+                    .owl-carousel.mobile.mobile-portal
+                      %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                      %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                      %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                      %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
 
     .noise
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
@@ -155,7 +156,6 @@
     %script{:src => "js/scripts.js"}
     %script{:src => "js/carousel.js"}
     %script{:src => "js/linked.js"}
-
 
 
 
