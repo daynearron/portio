@@ -6,8 +6,10 @@
     %title Dayne-Arron Watai Portfolio
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
+    %meta{:name => "pinterest", :content => "nopin"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
     %link{:href => "css/animsition.css", :rel => "stylesheet"}/
+    %link{:href => "css/carousel.css", :rel => "stylesheet"}/
     / %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/css/animsition.min.css", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
     /[if lt IE 9]
@@ -71,37 +73,88 @@
               Buying a home is a complex and emotional experience that can be difficult to tackle. 
             %p.intro-copy
               Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.
+          .right-column
+      %section.intro.section-white
+        .container
+          .left-column 
+            .project-side-header-label
+              %h4
+                Projects
+            %h2.intro-header
+              This is the Project Title
+            .tags
+              .tag
+                %p
+                  UI
+              .tag
+                %p
+                  UX
+              .tag
+                %p
+                  Front-End Dev
+              .tag
+                %p
+                  Straight Fuckery
+            %p.intro-copy
+              This is a paragraph or two about how fucked this whole fucking fuck fuck is.
+            %a{:href => "#", :class => "launch-btn"}
+              Launch Site
+          .right-column 
+            .project-carousel  
+              .owl-carousel.desktop.desktop-landing
+                %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                -# .browser-outline
+                -#   .browser-header
+                -#     .browser-header-btns 
+                -#       .dots
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
+              .project-carousel-mobile 
+                .project-carousel-mobile-wrapper  
+                  .owl-carousel.mobile.mobile-landing
+                    %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
       %section.intro.section-white
         .container
           .left-column 
           .right-column 
-            %h2
-              The first step was to get everyone on the same page by clearly defining the problem.
-            %ul.intro-copy-list
-              %li
-                How do we make the complexities of mortgages easily understandable?
-              %li
-                How can we streamline the day-to-day workflow of mortgage and loan officers, to reinforce the reliability and care of Commerce Home Mortgage?
-              %li
-                How do we emphasize the diverse culture at Commerce Home Mortgage?
-      %section.intro.intro-blue
-        .container
-          .left-column  
-            .project-side-header-label
-              %h4
-                Roles 
-              %p.intro-copy
-                My position included switching contexts between UI designer, UX researcher, visual designer, front end developer, performing marketing research, as well as managing the company’s social media presence. 
-                / %br/
-                / %br/
-                / With team members working remotely, living on different coasts—and even different countries—we communicated with each other effectively through Google Hangouts, Skype, email. We tracked our progress and organized tasks with Trello and a project tracker developed in-house.
-          .right-column
+            .project-carousel  
+              .owl-carousel.desktop.desktop-portal
+                %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"} 
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                -# .browser-outline
+                -#   .browser-header
+                -#     .browser-header-btns 
+                -#       .dots
+                %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}
+              .project-carousel-mobile 
+                .project-carousel-mobile-wrapper  
+                  .owl-carousel.mobile.mobile-portal
+                    %img{:src => "img/retail/hp-wire-02.png", :alt => "Exploration 1"}  
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"} 
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}  
+                    %img{:src => "img/retail/join-final.jpg", :alt => "Final Join Us Recruiting"}  
+                    %img{:src => "img/retail/hp-mock.png", :alt => "Final Retail Landing"}
+
     .noise
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
     %script{:src => "js/scripts.js"}
+    %script{:src => "js/carousel.js"}
+    %script{:src => "js/linked.js"}
 
 
 

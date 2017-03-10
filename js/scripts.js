@@ -1,4 +1,16 @@
 $(function(){
+	// $(".owl-carousel.desktop").owlCarousel({
+	// 	center: true,
+	// 	items:2,
+	// 	loop:true,
+	// 	margin:10
+	// });
+	// $(".owl-carousel.mobile").owlCarousel({
+	// 	center: true,
+	// 	items:1,
+	// 	loop:true
+	// });
+
     $(".project-thumb-container li").on("mouseover",function(){
         $(".project-thumb-container").addClass($(this).data('ul-class')); 
         $(".transition").addClass('transition-white'); 

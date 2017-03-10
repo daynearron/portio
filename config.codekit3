@@ -993,6 +993,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/carousel.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/carousel-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/fade\/fade-down-lg.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1150,16 +1160,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1963,6 +1963,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/animsition.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/carousel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/carousel-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/linked.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/linked-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3783,6 +3801,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/settings\/functions\/_private.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/slider.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/slider.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -1,6 +1,7 @@
 @import "../bower_components/normalize-css/normalize";
 @import "bourbon/bourbon", "neat/neat";
 @import "animation";
+@import "slider";
 @import "style";
 @import "type";
 @import "retail";
@@ -297,7 +298,8 @@ body
 		// padding: 3em 0 1em 0
 		max-width: 80%
 	&.section-white
-		z-index: 999
+		z-index: 99
+		position: relative
 		background-color: #fff
 		color: tint(#262626, 25%)
 
@@ -466,3 +468,45 @@ body
 					right: -12px
 	img
 		max-width: 100%
+
+.tags
+	width: 400px
+	overflow: hidden
+	font-size: 10px
+	line-height: 16px
+	letter-spacing: 0.98px
+	.tag
+		transition: all 0.2s ease-in-out
+		border: 1px solid tint(#262626, 90%)
+		color: tint(#73674a, 10%)
+		float: left
+		padding: 0px 15px
+		margin: 0 5px 0 0
+		border-radius: 2px
+		overflow: hidden
+		display: block
+		position: relative
+		z-index: 9
+		cursor: crosshair
+		p
+			margin: 0
+			padding: 0
+			z-index: 9
+			position: relative
+		&:hover
+			background-color: #292929
+
+		
+
+
+
+
+
+
+//btns
+
+.launch-btn
+	letter-spacing: 0.98px
+	padding: 0px 25px 0px 0px
+	// border: 1px solid
+	color: tint(#262626, 65%)
