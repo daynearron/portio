@@ -935,19 +935,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/CHMRetail.haml": {
-		"cDA": 0,
-		"eHT": 0,
-		"ft": 256,
-		"nEA": 0,
-		"oA": 0,
-		"oAP": "\/CHMRetail.html",
-		"oF": 2,
-		"oFM": 2,
-		"oS": 0,
-		"uDQ": 0,
-		"uUN": 0
-		},
 	"\/CHMRetail.html": {
 		"ft": 8192,
 		"oA": 2,
