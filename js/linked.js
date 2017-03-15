@@ -152,4 +152,13 @@ $(function(){
         var current = sync3.find('.owl-item.active.center').length ? sync3.find('.owl-item.active.center') : sync3.find('.owl-item.active').eq(0);
         current.addClass('current');
     });
+    $(".screens").owlCarousel({
+        nav: false,
+        center: true,
+        // autoWidth:true,
+        items:2,
+        loop:true,
+        margin:10
+        // linked: ".mobile-portal"
+    });
 });

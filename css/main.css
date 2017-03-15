@@ -603,6 +603,16 @@ template {
   .browser-outline-mobile img {
     width: 100%; }
 
+.screens {
+  width: 100%;
+  height: 400px; }
+  .screens .owl-item {
+    height: 400px; }
+    .screens .owl-item .screen {
+      height: 100%; }
+      .screens .owl-item .screen img {
+        margin: 0px auto; }
+
 body {
   background: #171717; }
 
@@ -871,7 +881,7 @@ nav p {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); }
 
 .intro h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
@@ -880,10 +890,10 @@ nav p {
 .intro p,
 .intro .intro-copy-list {
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.5em; }
+  line-height: 1.2em; }
 
 .intro p {
-  font-size: 1.2em; }
+  font-size: 1em; }
 
 .intro .intro-copy-list {
   list-style-type: decimal;
@@ -926,6 +936,9 @@ nav p {
 
 .md-copy {
   font-size: 10px; }
+
+.project-details {
+  padding: 25px; }
 
 .retail .project-title span {
   color: #004593; }
@@ -989,6 +1002,12 @@ nav p {
 
 .retail .section-wireframe {
   background-image: url("../img/retail/wire-bg.png"); }
+
+.retail .hero-landing {
+  background-image: url("../img/retail/screens/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; }
 
 .wholesale .project-title span {
   color: #e53d35; }
@@ -1348,8 +1367,6 @@ body {
 .intro {
   width: 100%;
   padding: 6em 0; }
-  .intro .intro-copy {
-    max-width: 80%; }
   .intro.section-white {
     z-index: 99;
     position: relative;
@@ -1358,16 +1375,27 @@ body {
 
 .left-column,
 .right-column {
-  float: left;
   width: 50%;
   display: block;
   position: relative;
-  min-height: 100%; }
+  height: 100%; }
   .left-column::after,
   .right-column::after {
     clear: both;
     content: "";
     display: block; }
+
+.content-well {
+  width: 60%; }
+
+.sidebar {
+  width: 40%; }
+
+.left-column {
+  float: left; }
+
+.right-column {
+  float: right; }
 
 .head-section {
   display: block;
@@ -1483,7 +1511,7 @@ body {
     max-width: 100%; }
 
 .tags {
-  width: 400px;
+  width: 100%;
   overflow: hidden;
   font-size: 10px;
   line-height: 16px;
@@ -1494,7 +1522,7 @@ body {
     color: #81765c;
     float: left;
     padding: 0px 15px;
-    margin: 0 5px 0 0;
+    margin: 0 5px 5px 0;
     border-radius: 2px;
     overflow: hidden;
     display: block;
@@ -1513,3 +1541,10 @@ body {
   letter-spacing: 0.98px;
   padding: 0px 25px 0px 0px;
   color: #b3b3b3; }
+
+.hero .container {
+  height: 1200px; }
+  .hero .container::after {
+    clear: both;
+    content: "";
+    display: block; }
