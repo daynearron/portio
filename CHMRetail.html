@@ -89,7 +89,7 @@
         </div>
       </div>
     </section>
-    <div class='animsition' data-animsition-out-class='fade-out-down-sm' data-animsition-out-duration='1000'>
+    <div class='animsition' data-animsition-in-class='fade-in-up-sm' data-animsition-out-class='fade-out-down-sm' data-animsition-out-duration='500'>
       <article>
         <div class='container'>
           <div class='content-info'>
@@ -153,7 +153,7 @@
                 <li>
                   <p>
                     <strong>Identify key project stakeholders:</strong>
-                    the company, the loan officer, the client
+                    The company, the loan officer, the client.
                   </p>
                 </li>
                 <li>
@@ -171,7 +171,7 @@
                 <li>
                   <p>
                     <strong>Interview</strong>
-                    to existing and potential clients  about their current experience.
+                    existing and potential clients about their current experience.
                   </p>
                 </li>
               </ul>
@@ -246,62 +246,6 @@
       </article>
     </div>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js'></script>
-    <script>
-      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
-       var ctx = document.getElementById("roles");
-       var data = {
-           labels: [
-               "UX Research",
-               "UI",
-               "Visual Designer",
-               "Front-End Development",
-               "Marketing Research",
-               "Social Media"
-           ],
-           datasets: [
-             {
-               data: [40, 50, 20, 70, 10, 10],
-               backgroundColor: [
-                 "#003c81",
-                 "#002b5c",
-                 "#00224a",
-                 "#001a37",
-                 "#003c81",
-                 "#004da6"
-               ],
-               hoverBackgroundColor: [
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65"  
-               ]
-             }]
-       };
-       var myDoughnutChart = new Chart(ctx, {
-         type: 'doughnut',
-         data: data,
-         options: {
-           legend: {
-             display: true,
-             position: "bottom",
-             labels: {
-                 fontColor: '#fafafa'
-             }
-           },
-           animation:{
-               animateScale:true
-           },
-           elements: {
-             arc: {
-               borderColor: "transparent"
-             }
-           }
-         }
-       });
-    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js'></script>
     <script src='js/scripts.js'></script>
     <script src='js/carousel.js'></script>

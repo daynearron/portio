@@ -59,7 +59,7 @@
                   Retail
               %h3.sub-title
                 Working together to make lending mortgage approachable.
-    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000"}  
+    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000", :"data-animsition-in-class" => "fade-in-up-sm", :"data-animsition-out-duration"=>"500"}  
       %article
         .container
           .content-info
@@ -104,7 +104,7 @@
                 %li
                   %p 
                     %strong Identify key project stakeholders: 
-                    the company, the loan officer, the client
+                    The company, the loan officer, the client.
                 %li
                   %p 
                     %strong Interview loan officers 
@@ -116,7 +116,7 @@
                 %li
                   %p 
                     %strong Interview 
-                    to existing and potential clients  about their current experience.
+                    existing and potential clients about their current experience.
               %h2
                 Getting real insight
               %p.intro-copy
@@ -163,61 +163,61 @@
               %p.intro-copy 
                 We continuously vetted prototypes with Commerce Home Mortgage loan officers, the marketing team, and several other employees in the multiple different departments. Our final design showcases the loan officer, and the culture at Commerce Home Mortgage with a refreshed brand that’s friendly and accessible.   
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
-    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"}
-    :javascript
-      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
-       var ctx = document.getElementById("roles");
-       var data = {
-           labels: [
-               "UX Research",
-               "UI",
-               "Visual Designer",
-               "Front-End Development",
-               "Marketing Research",
-               "Social Media"
-           ],
-           datasets: [
-             {
-               data: [40, 50, 20, 70, 10, 10],
-               backgroundColor: [
-                 "#003c81",
-                 "#002b5c",
-                 "#00224a",
-                 "#001a37",
-                 "#003c81",
-                 "#004da6"
-               ],
-               hoverBackgroundColor: [
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65",
-                   "#002f65"  
-               ]
-             }]
-       };
-       var myDoughnutChart = new Chart(ctx, {
-         type: 'doughnut',
-         data: data,
-         options: {
-           legend: {
-             display: true,
-             position: "bottom",
-             labels: {
-                 fontColor: '#fafafa'
-             }
-           },
-           animation:{
-               animateScale:true
-           },
-           elements: {
-             arc: {
-               borderColor: "transparent"
-             }
-           }
-         }
-       });
+    -# %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"}
+    -# :javascript
+    -#   window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    -#    var ctx = document.getElementById("roles");
+    -#    var data = {
+    -#        labels: [
+    -#            "UX Research",
+    -#            "UI",
+    -#            "Visual Designer",
+    -#            "Front-End Development",
+    -#            "Marketing Research",
+    -#            "Social Media"
+    -#        ],
+    -#        datasets: [
+    -#          {
+    -#            data: [40, 50, 20, 70, 10, 10],
+    -#            backgroundColor: [
+    -#              "#003c81",
+    -#              "#002b5c",
+    -#              "#00224a",
+    -#              "#001a37",
+    -#              "#003c81",
+    -#              "#004da6"
+    -#            ],
+    -#            hoverBackgroundColor: [
+    -#                "#002f65",
+    -#                "#002f65",
+    -#                "#002f65",
+    -#                "#002f65",
+    -#                "#002f65",
+    -#                "#002f65"  
+    -#            ]
+    -#          }]
+    -#    };
+    -#    var myDoughnutChart = new Chart(ctx, {
+    -#      type: 'doughnut',
+    -#      data: data,
+    -#      options: {
+    -#        legend: {
+    -#          display: true,
+    -#          position: "bottom",
+    -#          labels: {
+    -#              fontColor: '#fafafa'
+    -#          }
+    -#        },
+    -#        animation:{
+    -#            animateScale:true
+    -#        },
+    -#        elements: {
+    -#          arc: {
+    -#            borderColor: "transparent"
+    -#          }
+    -#        }
+    -#      }
+    -#    });
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
     %script{:src => "js/scripts.js"}
     %script{:src => "js/carousel.js"}
