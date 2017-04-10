@@ -6,9 +6,10 @@
     <title>Balboa Pacific Insurance – Case Study</title>
     <meta content='UI/UX Designer' name='description'>
     <meta content='DayneWatai' name='author'>
+    <meta content='nopin' name='pinterest'>
     <link href='css/main.css' rel='stylesheet'>
     <link href='css/animsition.css' rel='stylesheet'>
-    <!-- %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/css/animsition.min.css", :rel => "stylesheet"}/ -->
+    <link href='css/carousel.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans' rel='stylesheet'>
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -87,7 +88,13 @@
     <div class='animsition' data-animsition-out-class='fade-out-down-sm' data-animsition-out-duration='1000'>
       <article>
         <div class='container'>
-          <div class='content-info'></div>
+          <div class='content-info'>
+            <div class='slide'>
+              <img src='/img/balboa/desktop_01.png'>
+              <img src='/img/balboa/desktop_02.png'>
+              <img src='/img/balboa/desktop_03.png'>
+            </div>
+          </div>
           <div class='sidebar'>
             <section>
               <div class='project-side-header-label'>
@@ -121,12 +128,16 @@
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js'></script>
     <script src='js/scripts.js'></script>
-    <script src='js/scripts.js'></script>
     <script src='js/carousel.js'></script>
     <script src='js/linked.js'></script>
     <script src='js/jquery.sticky-kit.min.js'></script>
     <script>
       $(".sticky").stick_in_parent();
+      $(".slide").owlCarousel({
+        nav: false,
+        center: true,
+        items:1
+      });
     </script>
   </body>
 </html>

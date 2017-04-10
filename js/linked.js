@@ -161,4 +161,13 @@ $(function(){
         margin:10
         // linked: ".mobile-portal"
     });
+    $(".slider").owlCarousel({
+        nav: false,
+        center: true,
+        autoWidth:true,
+        items:1,
+        loop:true,
+        margin:10
+        // linked: ".mobile-portal"
+    });
 });

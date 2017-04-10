@@ -17,6 +17,7 @@
 html,
 body
 	min-height: 100%
+	background-color: #fafafa
 	*
 		box-sizing: border-box
 
@@ -25,19 +26,26 @@ html,
 	height: 100%
 
 body
-	box-shadow: inset 5px 0 0 #000, inset 0 -5px 0 #000, inset 5px 0 0 #000, inset -5px 0 0 #000
-	&:after
+	// box-shadow: inset 5px 0 0 #000, inset 0 5px 0 #000, inset 5px 0 0 #000, inset -5px 0 0 #000
+	&:after,
+	&:before
 		content: ''
 		display: block
 		position: fixed
 		top: 0
-		left: 0
-		right: 0
-		background-color: #000
-		height: 5px
+		// right: 0
+		background-color: tint(#292929, 10%)
+		opacity: 0.08
+		height: 100%
+		width: 1px
+		z-index: 9
+	&:after
+		left: 75%
+	&:before
+		left: 15%
 
 article 
-	background-color: #fff
+	// background-color: #fff
 	section
 		padding: 2em 0
 	
@@ -49,6 +57,9 @@ article
 	@include clearfix
 	&.welcome
 		height: 100%
+
+.head-section
+	background-color: #171717
 
 .project-header
 	width: 100%
@@ -515,12 +526,6 @@ article
 			background-color: #292929
 
 		
-
-
-
-
-
-
 //btns
 
 .launch-btn
@@ -535,11 +540,11 @@ article
 		height: 1200px
 		@include clearfix
 
-.content-info
-	width: 75%
-	display: block
-	min-height: 4px
-	float: left
+// .content-info
+// 	width: 75%
+// 	display: block
+// 	min-height: 4px
+// 	float: left
 
 .sidebar
 	padding: 15px
@@ -551,3 +556,48 @@ article
 	float: left
 	p
 		max-width: 95%
+
+
+
+.project-wrapper
+	padding: 3em 0 0 0
+	position: relative
+	z-index: 99
+	// background-color: white
+	@include clearfix
+
+.project-content
+	display: block
+	float: left
+	padding: 1em
+	position: relative
+
+.project-content-sm
+	width: 15%
+.project-content-md
+	width: 25%
+.project-content-lg
+	width: 60%
+	img
+		width: 100%
+.project-content-xl
+	width: 85%
+	margin-left: 15%
+
+
+.carousel
+	width: 100%
+	img
+		width: 100%
+		height: auto
+		&:focus
+			outline: none
+
+.carousel-slides
+	img
+		width: calc(50% - 15)
+		height: auto
+		margin-right: 15px
+		&:focus
+			outline: none
+

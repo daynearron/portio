@@ -6,9 +6,10 @@
     %title Balboa Pacific Insurance – Case Study
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
+    %meta{:name => "pinterest", :content => "nopin"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
     %link{:href => "css/animsition.css", :rel => "stylesheet"}/
-    / %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/css/animsition.min.css", :rel => "stylesheet"}/
+    %link{:href => "css/carousel.css", :rel => "stylesheet"}/
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -59,6 +60,10 @@
       %article
         .container
           .content-info
+            .slide
+              %img{:src => "/img/balboa/desktop_01.png"}
+              %img{:src => "/img/balboa/desktop_02.png"}
+              %img{:src => "/img/balboa/desktop_03.png"}
           .sidebar
             %section
               .project-side-header-label
@@ -78,15 +83,20 @@
               %p.intro-copy
                 Balboa Pacific is an independent agency in the business of helping people feel secure without breaking the bank. They’ve built a reputation on trust via word of mouth. The design direction seeks to clarify the complexities of insurance, providing a clear view of what options are available to the insured.
 
+
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
-    %script{:src => "js/scripts.js"}
     %script{:src => "js/scripts.js"}
     %script{:src => "js/carousel.js"}
     %script{:src => "js/linked.js"}
     %script{:src => "js/jquery.sticky-kit.min.js"}
     :javascript
       $(".sticky").stick_in_parent();
+      $(".slide").owlCarousel({
+        nav: false,
+        center: true,
+        items:1
+      });
 
