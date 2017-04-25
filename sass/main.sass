@@ -24,6 +24,7 @@ body
 html,
 .welcome
 	height: 100%
+	background-color: #292929
 
 body
 	// box-shadow: inset 5px 0 0 #000, inset 0 5px 0 #000, inset 5px 0 0 #000, inset -5px 0 0 #000
@@ -38,7 +39,7 @@ body
 		opacity: 0.08
 		height: 100%
 		width: 1px
-		z-index: 9
+		z-index: 999
 	&:after
 		left: 75%
 	&:before
@@ -69,12 +70,26 @@ article
 	left: 0
 	background: #fafafa
 
+.navigation-sidebar
+	position: relative
+	padding-top: 3em !important
+	z-index: 999999 !important
+	a
+		color: #272727
+		opacity: 0.3
+		&.active
+			opacity: 0.6
+	
+
 .header 
 	margin: 0
 	padding: 6em 0 0 0
+	z-index: 66
 	@include grid-container
 	.contact
 		margin: 0
+		position: relative
+		z-index: 999
 		// @include grid-column(12)
 		@include clearfix
 .contact-section
@@ -291,7 +306,7 @@ article
 		position: fixed
 		top: -22%
 		left: -25%
-		z-index: -2
+		z-index: 1
 		margin: 0
 		padding: 0
 
@@ -562,7 +577,7 @@ article
 .project-wrapper
 	padding: 3em 0 0 0
 	position: relative
-	z-index: 99
+	z-index: 9999
 	// background-color: white
 	@include clearfix
 

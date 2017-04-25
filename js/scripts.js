@@ -25,5 +25,5 @@ $(function(){
 		  '-o-animation-duration'
 		]
 	});
-});
 
+});
