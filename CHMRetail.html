@@ -121,6 +121,9 @@
         </ul>
       </div>
       <article class='project-wrapper' id='article-1'>
+        <div id='trigger1'>
+          hello
+        </div>
         <div class='project-content project-content-lg'>
           <div class='carousel'>
             <img alt='' src='img/retail/welcome.jpg'>
@@ -259,6 +262,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js'></script>
     <script src='js/scripts.js'></script>
     <script>
+      
       $(document).ready(function(){
       
         $('.carousel').slick({
@@ -294,6 +298,9 @@
           }
         });
       
+        -# var scene = new ScrollMagic.Scene({triggerElement: "#summary1", duration: 300})
+        -#   .setPin("#summary1")
+        -#   .addTo(controller);
       
         var scenes = {
           'intro': {
@@ -386,7 +393,9 @@
       
         });
       
-        */
+        var scene2 = new ScrollMagic.Scene({triggerElement: "#article-1", duration: 300})
+          .setPin("#summary1")
+          .addTo(controller);
       });
     </script>
   </body>
