@@ -7,7 +7,7 @@
 		"uuidString": "3B698BF6-A7D6-4AD8-8471-18A9722A80DC"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25504",
 "files": {
 	"\/BalboaPacific.haml": {
 		"cDA": 0,
@@ -2735,10 +2735,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/balboa\/desktop_01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/balboa\/desktop_02.png": {
 		"ft": 32768,
@@ -2746,10 +2743,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/balboa\/desktop_02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/balboa\/desktop_03.png": {
 		"ft": 32768,
@@ -2757,10 +2751,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/balboa\/desktop_03.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/celly.jpg": {
 		"ft": 16384,
@@ -2768,9 +2759,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/celly.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/chmr-logo.png": {
 		"ft": 32768,
@@ -2778,10 +2767,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/chmr-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/gallery\/.BridgeSort": {
 		"ft": 8192,
@@ -2795,9 +2781,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/lappy.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/noise.png": {
 		"ft": 32768,
@@ -2805,10 +2789,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/noise.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/flyers.png": {
 		"ft": 32768,
@@ -2816,10 +2797,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/flyers.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/location.jpg": {
 		"ft": 16384,
@@ -2827,9 +2805,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/location.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/location.png": {
 		"ft": 32768,
@@ -2837,10 +2813,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/location.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/los.jpg": {
 		"ft": 16384,
@@ -2848,9 +2821,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/los.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/los.png": {
 		"ft": 32768,
@@ -2858,10 +2829,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/los.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/personal.png": {
 		"ft": 32768,
@@ -2869,10 +2837,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/personal.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/presentations.png": {
 		"ft": 32768,
@@ -2880,10 +2845,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/presentations.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/recruiting-01.png": {
 		"ft": 32768,
@@ -2891,10 +2853,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/recruiting-01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/recruiting-02.png": {
 		"ft": 32768,
@@ -2902,10 +2861,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/recruiting-02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"opt": 0
 		},
 	"\/img\/retail\/recruiting-03.png": {
 		"ft": 32768,
@@ -2913,10 +2869,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/recruiting-03.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/resources-01.png": {
 		"ft": 32768,
@@ -2924,10 +2877,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/resources-01.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/resources-02.png": {
 		"ft": 32768,
@@ -2935,10 +2885,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/resources-02.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-01.jpg": {
 		"ft": 16384,
@@ -2946,9 +2893,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-01.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-02.jpg": {
 		"ft": 16384,
@@ -2956,9 +2901,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-02.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-03.jpg": {
 		"ft": 16384,
@@ -2966,9 +2909,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-03.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-04.jpg": {
 		"ft": 16384,
@@ -2976,9 +2917,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-04.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-05.jpg": {
 		"ft": 16384,
@@ -2986,9 +2925,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-05.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/website\/website-06.jpg": {
 		"ft": 16384,
@@ -2996,9 +2933,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-06.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/retail\/welcome.jpg": {
 		"ft": 16384,
@@ -3006,9 +2941,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/welcome.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/img\/tabby.jpg": {
 		"ft": 16384,
@@ -3016,9 +2949,7 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/tabby.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/index.haml": {
 		"cDA": 0,
@@ -5162,7 +5093,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 509317611,
-	"displayValue": "Portfolio",
+	"displayValue": "portio",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "\/apple-touch-icon.png"
 	},
@@ -5836,10 +5767,6 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -6040,10 +5967,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"no-multi-assign": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -6121,10 +6044,6 @@
 			"optionString": ""
 			},
 		"no-proto": {
-			"active": 0,
-			"optionString": ""
-			},
-		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6324,10 +6243,6 @@
 			"active": 0,
 			"optionString": ""
 			},
-		"nonblock-statement-body-position": {
-			"active": 0,
-			"optionString": "'beside'"
-			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -6379,10 +6294,6 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
-			},
-		"prefer-promise-reject-errors": {
-			"active": 0,
-			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -6477,10 +6388,6 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
-			"active": 0,
-			"optionString": "'never'"
-			},
-		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -6927,8 +6834,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -6951,6 +6857,14 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -7013,9 +6927,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"optimizerType": 1,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

@@ -16,18 +16,17 @@
 
 html,
 body
-	min-height: 100%
-	background-color: #fafafa
+	height: 100%
+	// background-color: #fafafa
 	*
 		box-sizing: border-box
 
-html,
 .welcome
 	height: 100%
 	background-color: #292929
 
-body
-	// box-shadow: inset 5px 0 0 #000, inset 0 5px 0 #000, inset 5px 0 0 #000, inset -5px 0 0 #000
+body,
+.project-section
 	&:after,
 	&:before
 		content: ''
@@ -39,7 +38,7 @@ body
 		opacity: 0.08
 		height: 100%
 		width: 1px
-		z-index: 999
+		z-index: 9
 	&:after
 		left: 75%
 	&:before
@@ -70,15 +69,28 @@ article
 	left: 0
 	background: #fafafa
 
+.project-section
+	background-color: #fafafa
+	position: relative
+	z-index: 99
+	@extend .fadeInUp
+	@extend .animated
+
 .navigation-sidebar
 	position: relative
 	padding-top: 3em !important
 	z-index: 999999 !important
+	ul, li 
+		position: relative
+		z-index: 99999
 	a
 		color: #272727
-		opacity: 0.3
+		opacity: 0.1
+		position: relative
+		z-index: 99999
 		&.active
 			opacity: 0.6
+			color: #73674a
 	
 
 .header 
@@ -577,7 +589,7 @@ article
 .project-wrapper
 	padding: 3em 0 0 0
 	position: relative
-	z-index: 9999
+	z-index: 99
 	// background-color: white
 	@include clearfix
 
@@ -602,17 +614,62 @@ article
 
 .carousel
 	width: 100%
-	img
+	.slide
 		width: 100%
-		height: auto
+		padding: 0px 0px 15px 0px	
 		&:focus
 			outline: none
+		img
+			border: 1px solid rgba(82,82,82,0.09)
+			transition: all 0.4s ease-in-out
+			width: 100%
+			height: auto
+			-webkit-box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			-moz-box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			&:focus
+				outline: none
+			// &:hover
+			// 	box-shadow: 0 10px 15px -15px rgba(50,50,93,.3), 0 15px 20px -20px rgba(0,0,0,.1)
 
 .carousel-slides
-	img
+	margin-left: -1em !important
+	// &:after
+	// 	content: ''
+	// 	display: block
+	// 	width: calc(1em + 15px)
+	// 	height: 100%
+	// 	position: absolute
+	// 	top: 0
+	// 	right: 0
+	// 	background: #fafafa
+	.slide
+		padding: 0px 0px 15px 0px
 		width: calc(50% - 15)
-		height: auto
 		margin-right: 15px
 		&:focus
 			outline: none
+		// &:hover
+		// 	.project-carousel-desc
+		// 		font-weight: bold
+		img
+			border: 1px solid rgba(82,82,82,0.09)
+			transition: all 0.4s ease-in-out
+			width: 100%
+			height: auto
+			-webkit-box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			-moz-box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			box-shadow: 0px 18px 15px -15px rgba(82,82,82,0.49)
+			&:focus
+				outline: none
+			&:hover
+				-webkit-box-shadow: 0px 10px 10px -10px rgba(82,82,82,0.49)
+				-moz-box-shadow: 0px 10px 10px -10px rgba(82,82,82,0.49)
+				box-shadow: 0px 10px 10px -10px rgba(82,82,82,0.49)	
 
+.project-carousel-desc
+	transition: all 0.4s ease-in-out
+	padding-left: 1em
+	font-weight: 400
+	letter-spacing: 0.98px
+	font-size: 11px

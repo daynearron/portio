@@ -10,7 +10,7 @@ $(function(){
     });
 	//Animsition
 	$(".animsition").animsition({
-		inClass: 'fade-in-left-sm',
+		inClass: 'fade-in-up-sm',
 		outClass: 'fade-out-down-sm',
 		inDuration: 500,
 		outDuration: 500,
@@ -27,3 +27,6 @@ $(function(){
 	});
 
 });
+
+
+
