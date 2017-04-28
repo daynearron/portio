@@ -7,8 +7,8 @@
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
     %meta{:name => "pinterest", :content => "nopin"}/
-    %link{:href => "css/main.css", :rel => "stylesheet"}/
     %link{:href => "css/animsition.css", :rel => "stylesheet"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
     %link{:href => "css/carousel.css", :rel => "stylesheet"}/
     %script{:src => "https://use.typekit.net/mlp8vur.js"}
       :javascript
@@ -239,18 +239,17 @@
             %p
               Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.        
         .footer.footer-retail
-          / .footer-element.prev-project
-          /   %a
-          /     Previous Project
           .footer-element.contact-me
             %a
               Contact Me
           .footer-element.next-project
-            %a{:href => "/CHMWholesale.html", :class => "animsition-link"}
+            %a{:href => "CHMWholesale.html", :class => "animsition-link"}
               Commerce Home Mortgage Wholesale
               %span
                 Case Study
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    :javascript
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"}
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollToFixed/1.0.8/jquery-scrolltofixed.js"}

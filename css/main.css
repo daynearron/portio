@@ -1795,3 +1795,16 @@ article section {
 
 .retail-thmb {
   background-image: url("../img/retail/website/website-03.jpg"); }
+
+.experience-list {
+  color: #272727; }
+  .experience-list li {
+    width: 90%;
+    padding-bottom: 25px; }
+    .experience-list li h2 span {
+      line-height: 18px;
+      color: #cdcdcd;
+      font-size: 14px;
+      display: block; }
+      .experience-list li h2 span:first-child {
+        padding-top: 10px; }

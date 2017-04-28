@@ -2517,7 +2517,7 @@
 		"nEA": 0,
 		"oA": 0,
 		"oAP": "\/CHMWholesale.html",
-		"oF": 0,
+		"oF": 2,
 		"oFM": 2,
 		"oS": 0,
 		"uDQ": 0,
@@ -3361,6 +3361,19 @@
 		"oA": 1,
 		"oAP": "\/photography.html",
 		"oF": 0
+		},
+	"\/resume.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/resume.html",
+		"oF": 2,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
 		},
 	"\/sass\/animation.sass": {
 		"aP": 0,

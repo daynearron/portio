@@ -1,0 +1,126 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title Dayne-Arron Watai Portfolio
+    %meta{:content => "UI/UX Designer", :name => "description"}/
+    %meta{:content => "DayneWatai", :name => "author"}/
+    %meta{:name => "pinterest", :content => "nopin"}/
+    %link{:href => "css/animsition.css", :rel => "stylesheet"}/
+    %link{:href => "css/main.css", :rel => "stylesheet"}/
+    %link{:href => "css/carousel.css", :rel => "stylesheet"}/
+    %script{:src => "https://use.typekit.net/mlp8vur.js"}
+      :javascript
+        try{Typekit.load({ async: true });}catch(e){}
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css", :rel => "stylesheet"}
+    /[if lt IE 9]
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  %body
+    %section.head-section.animsition
+      .container
+        .header   
+          .contact
+            .contact-section.transition
+              %a{:href => "index.html", :class=>"contact-btn animsition-link"}
+                %span
+                  DW
+              .about-btn  
+                %a{:href => "", :class => ""}
+                  About Dayne-Arron Watai
+              .current-events
+                .ticker-wrapper
+                  .ticker
+                    .ticker__item 
+                      Reading
+                      %a{:href => "https://www.amazon.com/dp/B00IQO403K/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1", :target =>"_BLANK"}
+                        Cixin Liu - The Three-Body Problem (Remembrance of Earth's Past)
+                    .ticker__item
+                      Listening to 
+                      %a{:href => "https://soundcloud.com/workoutclub/thinkin", :target => "_BLANK"}
+                        Workout Club - Thinkin'
+                    .ticker__item
+                      Watching
+                      %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
+                        Steven Universe
+              .social
+                %a{:href => "#", :class => ""}
+                  Facebook
+                %a{:href => "#", :class => ""}
+                  Twitter
+                %a{:href => "#", :class => ""}
+                  Instagram
+          .project-title-block  
+            .project-side-header-label
+              %h4 Resume
+            .project-title  
+              %h2.title
+                Dayne Watai 
+              %h3.sub-title
+                Interactive Art Director & Designer
+    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000", :"data-animsition-in-class" => "fade-in-up-sm", :"data-animsition-out-duration"=>"500"}  
+      %section.project-section 
+        .row
+          .project-content.project-content-sm
+            &nbsp; 
+          .project-content.project-content-lg          
+            %h2
+              I like to make things, things are great.
+            %p
+              Dayne Watai is a multidisciplinary designer, photographer and art director currently situated in San Francisco. 
+          .project-content.project-content-md
+            &nbsp; 
+        .row
+          .project-content.project-content-sm
+            &nbsp; 
+          .project-content.project-content-lg 
+            .project-side-header-label
+              %h4
+                Experience
+            %ul.experience-list
+              %li
+                %h2.experience-title
+                  Dayne Arron Creative
+                  %span.experience-position  
+                    Creative Design & Development
+                  %span.experience-length
+                    Jan 2015 - Present - 3yrs 4mos San Francisco, CA
+                %p
+                  Performed creative tasks including—but not limited to—UI design, UX Research, Visual Design, Branding, Front-End Development, photography and print design.
+              %li
+                %h2.experience-title
+                  Commerce Home Mortgage
+                  %span.experience-position  
+                    UI Designer / UX Researcher & Front End Developer
+                  %span.experience-length
+                    Sep 2015 - Jan 2017 - 1yrs 5mos San Ramon, CA
+                %p
+                  Oversaw all digital and print design projects. Served as head front-end developer and web designer from conception to completion, and contributed to research and strategy.
+                %p
+                  Collaborated with marketing team to define branding for all branches and all companies owned by Commerce Home Mortgage, including Commerce Home Mortgage Wholesale, Street Smart Evaluations, and Balboa Pacific Insurance.
+            %ul.experience-list
+              %li
+                %h2.experience-title
+                  VISION Marketing & Consulting
+                  %span.experience-position  
+                    Visual & Web Design Consultant
+                  %span.experience-length
+                    Sep 2015 - Jan 2017 - 1yrs 5mos San Ramon, CA
+                %p
+                  Served as design consultant providing low-cost services for small businesses. Services ranged from branding and print collateral to web design.
+              %li
+                %h2.experience-title
+                  Mode Media
+                  %span.experience-position  
+                    Consumer Product Designer
+                  %span.experience-length
+                    May 2012 - Aug 2015 - 3yrs 4mos Brisbane, CA
+                %p
+                  Web and mobile app UI / UX design and product development. Also heavily involved in strategy and concepts.
+          .project-content.project-content-md
+            &nbsp; 
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
+    :javascript
+      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
+    %script{:src => "js/scripts.js"}
