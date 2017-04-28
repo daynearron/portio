@@ -2799,6 +2799,38 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/retail\/flyers\/10Myths.jpg": {
+		"ft": 16384,
+		"iS": 2057186,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/flyers\/10Myths.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/flyers\/complicated.jpg": {
+		"ft": 16384,
+		"iS": 1977712,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/flyers\/complicated.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/flyers\/Reverse.jpg": {
+		"ft": 16384,
+		"iS": 2454831,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/flyers\/Reverse.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/flyers\/TRID.jpg": {
+		"ft": 16384,
+		"iS": 2036919,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/flyers\/TRID.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/retail\/location.jpg": {
 		"ft": 16384,
 		"iS": 1108109,
@@ -2839,6 +2871,62 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/img\/retail\/portal\/website-01.jpg": {
+		"ft": 16384,
+		"iS": 416611,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-01.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-02.jpg": {
+		"ft": 16384,
+		"iS": 439032,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-02.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-03.jpg": {
+		"ft": 16384,
+		"iS": 320702,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-03.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-04.jpg": {
+		"ft": 16384,
+		"iS": 427681,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-04.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-05.jpg": {
+		"ft": 16384,
+		"iS": 320676,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-05.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-06.jpg": {
+		"ft": 16384,
+		"iS": 400803,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-06.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/portal\/website-07.jpg": {
+		"ft": 16384,
+		"iS": 413673,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/portal\/website-07.jpg",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/retail\/presentations.png": {
 		"ft": 32768,
 		"iS": 749581,
@@ -2861,13 +2949,69 @@
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/recruiting-02.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/img\/retail\/recruiting-03.png": {
 		"ft": 32768,
 		"iS": 978080,
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/recruiting-03.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-01.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-01.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-02.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-02.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-03.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-03.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-04.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-04.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-05.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-05.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-06.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-06.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/recruiting\/website-07.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/recruiting\/website-07.jpg",
 		"oF": 0,
 		"opt": 1
 		},
@@ -2932,6 +3076,14 @@
 		"iS": 452141,
 		"oA": 0,
 		"oAP": "\/build\/img\/retail\/website\/website-06.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/retail\/website\/website-07.jpg": {
+		"ft": 16384,
+		"iS": 435507,
+		"oA": 0,
+		"oAP": "\/build\/img\/retail\/website\/website-07.jpg",
 		"oF": 0,
 		"opt": 1
 		},
