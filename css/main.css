@@ -506,11 +506,11 @@ template {
   .ticker__item {
     display: inline-block;
     padding: 0 18px;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 0.98px;
     color: #d8d5cd; }
     .ticker__item a {
-      color: #54492e;
+      color: #d5d5d5;
       padding-left: 8px; }
       .ticker__item a:hover {
         color: #73674a; }
@@ -529,7 +529,7 @@ template {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
-.animated, .footer-element a span, .project-section {
+.animated, .footer-element a span, .project-section, .bcg {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -537,6 +537,22 @@ template {
 
 .hideme {
   opacity: 0; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.08; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 0.08; } }
+
+.fadeIn, .bcg {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
 
 .slider {
   max-width: 100%;
@@ -1247,7 +1263,6 @@ article section {
       display: block; }
 
 .contact-section {
-  border: 1px solid #747474;
   width: 300px;
   text-align: left;
   height: 74px;
@@ -1270,7 +1285,6 @@ article section {
     position: relative;
     float: left;
     background-color: #292929;
-    border-right: 1px solid #747474;
     transition: all 0.4s ease-in-out;
     color: #fff; }
     .contact-section .contact-btn span {
@@ -1309,7 +1323,6 @@ article section {
   .contact-section .about-btn a {
     display: block;
     transition: all 0.4s ease-in-out;
-    border-bottom: 1px solid #747474;
     overflow: hidden;
     position: relative;
     background-repeat: no-repeat;
@@ -1318,14 +1331,12 @@ article section {
     .contact-section .about-btn a:hover {
       background-image: url("../img/arrow-forward.svg");
       background-position: 200px center;
-      background-color: #000;
       color: #635636;
       text-shadow: 0 0 4px #292929; }
   .contact-section .social {
-    padding-bottom: 1px;
-    border-top: 1px solid #747474;
     transition: all 0.4s ease-in-out;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-top: 2px; }
     .contact-section .social::after {
       clear: both;
       content: "";
@@ -1339,26 +1350,12 @@ article section {
       z-index: 2;
       position: relative;
       transition: all 0.4s ease-in-out; }
-      .contact-section .social a:after {
-        content: '';
-        display: block;
-        width: 100%;
-        height: calc(100% - 2px);
-        background-color: #6b5e40;
-        position: absolute;
-        top: 102%;
-        left: 0;
-        z-index: -1;
-        transition: all 0.4s ease-in-out; }
-      .contact-section .social a:last-child:after {
-        width: calc(100% + 2px); }
-      .contact-section .social a:not(:last-child) {
-        border-right: 1px solid #747474; }
       .contact-section .social a:hover {
-        color: #f7f7f5;
-        text-shadow: 1px 1px 5px #252525; }
-        .contact-section .social a:hover:after {
-          top: 0; }
+        color: #635636;
+        text-shadow: 1px 1px 5px #252525;
+        -moz-box-shadow: inset 0 -2px 0 0 #635636;
+        -webkit-box-shadow: inset 0 -2px 0 0 #635636;
+        box-shadow: inset 0 -2px 0 0 #635636; }
 
 .project-side-label {
   display: block;
@@ -1447,7 +1444,10 @@ article section {
         .footer-project-nav li a .arrow p {
           max-width: 100%;
           display: inline-block;
-          opacity: 1; }
+          opacity: 1;
+          font-size: 10px;
+          text-transform: uppercase;
+          letter-spacing: 0.98px; }
         .project-thumb-container li a .arrow svg,
         .footer-project-nav li a .arrow svg {
           margin-left: 12px;
@@ -1460,14 +1460,7 @@ article section {
     max-width: 90%; }
   .project-thumb-container .bg,
   .footer-project-nav .bg {
-    width: 100%;
-    height: 50%;
-    position: fixed;
-    top: -25%;
-    left: 0;
-    z-index: 1;
-    margin: 0;
-    padding: 0; }
+    display: none; }
 
 .project-title-block {
   padding-top: 75px; }
@@ -1808,3 +1801,17 @@ article section {
       display: block; }
       .experience-list li h2 span:first-child {
         padding-top: 10px; }
+
+.head-section .container {
+  z-index: 99; }
+
+.bcg {
+  background: url("https://images.unsplash.com/photo-1483821718455-7aaac5d47a8a?dpr=2&auto=format&fit=crop&w=1500&h=1004&q=80&cs=tinysrgb&crop=&bg=") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.2;
+  -webkit-transition: all 1000ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1000ms cubic-bezier(0.77, 0, 0.175, 1); }

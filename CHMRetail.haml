@@ -17,7 +17,8 @@
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   %body.retail
-    %section.head-section.animsition
+    %section.head-section.animsition#slide01.slide
+      .bcg
       .container
         .header   
           .contact
@@ -237,7 +238,29 @@
             %h2
               Maintaining Commerce Home Mortgages high standards by attracting new talent.
             %p
-              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.        
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive. 
+        %article.project-wrapper 
+          .project-content.project-content-sm
+            &nbsp;
+          .project-content.project-content-md.project-summary.summary#summary1 
+            .project-side-header-label
+              %h4
+                Custom Collateral
+            %h2
+              Maintaining Commerce Home Mortgages high standards by attracting new talent.
+            %p
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.   
+          .project-content.project-content-lg
+            .project-side-header-label.project-label
+              %h4
+                Flyer Collateral
+            .carousel-slides
+              .slide
+                %img{:src => "img/retail/emails/email3.png", :alt => ""}/
+              .slide
+                %img{:src => "img/retail/emails/email1.png", :alt => ""}/
+              .slide
+                %img{:src => "img/retail/emails/email2.png", :alt => ""}/
         .footer.footer-retail
           .footer-element.contact-me
             %a

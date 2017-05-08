@@ -2810,6 +2810,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/retail\/emails\/email1.png": {
+		"ft": 32768,
+		"iS": 569693,
+		"oA": 0,
+		"oAP": "\/img\/retail\/emails\/email1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/retail\/emails\/email2.png": {
+		"ft": 32768,
+		"iS": 453218,
+		"oA": 0,
+		"oAP": "\/img\/retail\/emails\/email2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/retail\/emails\/email3.png": {
+		"ft": 32768,
+		"iS": 463653,
+		"oA": 0,
+		"oAP": "\/img\/retail\/emails\/email3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/retail\/flyers.png": {
 		"ft": 32768,
 		"iS": 689257,
@@ -3221,9 +3254,103 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/wholesale\/emails\/email1.png": {
+		"ft": 32768,
+		"iS": 659663,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/emails\/email1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/emails\/email2.png": {
+		"ft": 32768,
+		"iS": 378127,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/emails\/email2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/emails\/email3.png": {
+		"ft": 32768,
+		"iS": 381674,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/emails\/email3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/flyers\/.BridgeSort": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/wholesale\/flyers\/.BridgeSort",
+		"oF": 0
+		},
+	"\/img\/wholesale\/flyers\/flyer01.png": {
+		"ft": 32768,
+		"iS": 345393,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/flyers\/flyer01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/flyers\/flyer02.png": {
+		"ft": 32768,
+		"iS": 278981,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/flyers\/flyer02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/flyers\/flyer03.png": {
+		"ft": 32768,
+		"iS": 317584,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/flyers\/flyer03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/flyers\/flyer04.png": {
+		"ft": 32768,
+		"iS": 595026,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/flyers\/flyer04.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/flyers\/flyer05.png": {
+		"ft": 32768,
+		"iS": 306734,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/flyers\/flyer05.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/wholesale\/Portal.png": {
 		"ft": 32768,
-		"iS": 640082,
+		"iS": 618373,
 		"oA": 0,
 		"oAP": "\/img\/wholesale\/Portal.png",
 		"oF": 0,
@@ -3296,6 +3423,76 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/CHMW-gradient-Map-01.jpg": {
+		"ft": 16384,
+		"iS": 419070,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/CHMW-gradient-Map-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/CHMW-gradient-Map-02.jpg": {
+		"ft": 16384,
+		"iS": 483256,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/CHMW-gradient-Map-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/CHMW-gradient-Map-03.jpg": {
+		"ft": 16384,
+		"iS": 506828,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/CHMW-gradient-Map-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/rates.jpg": {
+		"ft": 16384,
+		"iS": 184977,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/rates.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/resource-forms.jpg": {
+		"ft": 16384,
+		"iS": 121323,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/resource-forms.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/submit-loan.jpg": {
+		"ft": 16384,
+		"iS": 237875,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/submit-loan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/wholesale\/website\/turn-times.jpg": {
+		"ft": 16384,
+		"iS": 532866,
+		"oA": 0,
+		"oAP": "\/img\/wholesale\/website\/turn-times.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/wholesale\/Welcome.png": {

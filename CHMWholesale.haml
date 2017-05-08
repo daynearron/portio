@@ -18,6 +18,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   %body.wholesale
     %section.head-section
+      .bcg
       .container.animsition
         .header   
           .contact
@@ -215,19 +216,15 @@
                 Website Screens
             .carousel-slides
               .slide  
-                %img{:src => "img/retail/website/website-01.jpg", :alt => ""}/
+                %img{:src => "img/wholesale/website/CHMW-gradient-Map-01.jpg", :alt => ""}/
               .slide  
-                %img{:src => "img/retail/website/website-02.jpg", :alt => ""}/
+                %img{:src => "img/wholesale/website/rates.jpg", :alt => ""}/
               .slide  
-                %img{:src => "img/retail/website/website-03.jpg", :alt => ""}/
+                %img{:src => "img/wholesale/website/resource-forms.jpg", :alt => ""}/
               .slide  
-                %img{:src => "img/retail/website/website-04.jpg", :alt => ""}/
+                %img{:src => "img/wholesale/website/submit-loan.jpg", :alt => ""}/
               .slide  
-                %img{:src => "img/retail/website/website-05.jpg", :alt => ""}/
-              .slide  
-                %img{:src => "img/retail/website/website-06.jpg", :alt => ""}/
-              .slide  
-                %img{:src => "img/retail/website/website-07.jpg", :alt => ""}/
+                %img{:src => "img/wholesale/website/turn-times.jpg", :alt => ""}/
         %article.project-wrapper#article-2
           .project-content.project-content-sm
             &nbsp;   
@@ -249,23 +246,7 @@
                 %img{:src => "img/wholesale/Portal_Request.png", :alt => ""}/
               .slide
                 %img{:src => "img/wholesale/Portal_Presentations.png", :alt => ""}/
-          .project-content.project-content-xl
-            .project-side-header-label.project-label
-              %h4
-                Recruiting Screens
-            .carousel-slides
-              .slide
-                %img{:src => "img/retail/portal/website-01.jpg", :alt => ""}/
-              .slide
-                %img{:src => "img/retail/portal/website-02.jpg", :alt => ""}/
-              .slide
-                %img{:src => "img/retail/portal/website-03.jpg", :alt => ""}/
-              .slide
-                %img{:src => "img/retail/portal/website-04.jpg", :alt => ""}/
-              .slide
-                %img{:src => "img/retail/portal/website-05.jpg", :alt => ""}/
-              .slide
-                %img{:src => "img/retail/portal/website-06.jpg", :alt => ""}/
+
         -# %article.project-wrapper#article-3
         -#   .project-content.project-content-sm
         -#     &nbsp;
@@ -302,50 +283,78 @@
         -#         %img{:src => "img/wholesale/recruiting/website-05.jpg", :alt => ""}/
         -#       .slide
         -#         %img{:src => "img/wholesale/recruiting/website-06.jpg", :alt => ""}/
-        -# %article.project-wrapper#article-4
-        -#   .project-content.project-content-sm
-        -#     &nbsp;   
-        -#   .project-content.project-content-md.project-summary.summary#summary2 
-        -#     .project-side-header-label
-        -#       %h4
-        -#         Marketing Material
-        -#     %h2
-        -#       Enhancing experience with tailored microsites.
-        -#     %p
-        -#       Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive. 
-        -#   .project-content.project-content-lg
-        -#     .project-side-header-label.project-label
-        -#       %h4
-        -#         Personal Microsites
-        -#     .slide
-        -#       %img{:src => "img/wholesale/personal.png", :alt => ""}/
-        -#   .project-content.project-content-sm
-        -#     &nbsp;
-        -#   .project-content.project-content-lg
-        -#     .project-side-header-label.project-label
-        -#       %h4
-        -#         Flyer Collateral
-        -#     .carousel-slides
-        -#       .slide
-        -#         %img{:src => "img/wholesale/flyers/Reverse.jpg", :alt => ""}/
-        -#       .slide
-        -#         %img{:src => "img/wholesale/flyers/complicated.jpg", :alt => ""}/
-        -#       .slide
-        -#         %img{:src => "img/wholesale/flyers/10Myths.jpg", :alt => ""}/
-        -#       .slide
-        -#         %img{:src => "img/wholesale/flyers/TRID.jpg", :alt => ""}/
-        -#   .project-content.project-content-md.project-summary.summary#summary1 
-        -#     .project-side-header-label
-        -#       %h4
-        -#         Custom Collateral
-        -#     %h2
-        -#       Maintaining Commerce Home Mortgages high standards by attracting new talent.
-        -#     %p
-        -#       Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.        
+        %article.project-wrapper#article-4
+          -# .project-content.project-content-sm
+          -#   &nbsp;   
+          -# .project-content.project-content-md.project-summary.summary#summary2 
+          -#   .project-side-header-label
+          -#     %h4
+          -#       Marketing Material
+          -#   %h2
+          -#     Enhancing experience with tailored microsites.
+          -#   %p
+          -#     Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive. 
+          -# .project-content.project-content-lg
+          -#   .project-side-header-label.project-label
+          -#     %h4
+          -#       Flyers and Forms
+          -#   .slide
+          -#     %img{:src => "img/wholesale/personal.png", :alt => ""}/
+          -# .project-content.project-content-xl
+          -#   .project-side-header-label.project-label
+          -#     %h4
+          -#       Recruiting Screens
+          -#   .carousel-slides
+          -#     .slide
+
+          .project-content.project-content-sm
+            &nbsp;
+          .project-content.project-content-lg
+            .project-side-header-label.project-label
+              %h4
+                Flyer Collateral
+            .carousel-slides
+              .slide
+                %img{:src => "img/wholesale/emails/email1.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/emails/email2.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/emails/email3.png", :alt => ""}/
+          .project-content.project-content-md.project-summary.summary#summary1 
+            .project-side-header-label
+              %h4
+                Custom Collateral
+            %h2
+              Maintaining Commerce Home Mortgages high standards by attracting new talent.
+            %p
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.
+        %article.project-wrapper 
+          .project-content.project-content-sm
+            &nbsp; 
+          .project-content.project-content-md.project-summary.summary 
+            .project-side-header-label
+              %h4
+                Custom Collateral
+            %h2
+              Maintaining Commerce Home Mortgages high standards by attracting new talent.
+            %p
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive. 
+          .project-content.project-content-lg
+            .project-side-header-label.project-label
+              %h4
+                Flyer Collateral
+            .carousel-slides
+              .slide
+                %img{:src => "img/wholesale/flyers/flyer01.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/flyers/flyer02.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/flyers/flyer03.png", :alt => ""}/    
+
         .footer
           .footer-element.prev-project.wholesale-thmb
-            %a{:href => "CHMwholesale.html", :class => "animsition-link"}
-              Commerce Home Mortgage wholesale
+            %a{:href => "CHMretail.html", :class => "animsition-link"}
+              Commerce Home Mortgage Retail
               %span
                 Case Study
           .footer-element.contact-me
@@ -365,6 +374,7 @@
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"}
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"}
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"}
     %script{:src => "js/scripts.js"}
     :javascript
       
@@ -494,9 +504,6 @@
 
         });
 
-        // var scene2 = new ScrollMagic.Scene({triggerElement: "#article-1", duration: 300})
-        //   .setPin("#summary1")
-        //   .addTo(controller);
       });
 
 

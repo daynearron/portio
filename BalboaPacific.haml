@@ -3,18 +3,22 @@
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{:charset => "utf-8"}/
-    %title Balboa Pacific Insurance – Case Study
+    %title Dayne-Arron Watai Portfolio
     %meta{:content => "UI/UX Designer", :name => "description"}/
     %meta{:content => "DayneWatai", :name => "author"}/
     %meta{:name => "pinterest", :content => "nopin"}/
     %link{:href => "css/main.css", :rel => "stylesheet"}/
     %link{:href => "css/animsition.css", :rel => "stylesheet"}/
     %link{:href => "css/carousel.css", :rel => "stylesheet"}/
-    %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans|Ropa+Sans", :rel => "stylesheet"}/
+    %script{:src => "https://use.typekit.net/mlp8vur.js"}
+      :javascript
+        try{Typekit.load({ async: true });}catch(e){}
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css", :rel => "stylesheet"}
     /[if lt IE 9]
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   %body.balboapacific
     %section.head-section
+      .bcg
       .container.animsition
         .header   
           .contact
@@ -36,6 +40,7 @@
                       Listening to 
                       %a{:href => "https://soundcloud.com/workoutclub/thinkin", :target => "_BLANK"}
                         Workout Club - Thinkin'
+                    .ticker__item
                       Watching
                       %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
                         Steven Universe
@@ -46,7 +51,7 @@
                   Twitter
                 %a{:href => "#", :class => ""}
                   Instagram
-          .project-title-block  
+          .project-title-block    
             .project-side-header-label
               %h4 Case Study
             .project-title  
@@ -56,47 +61,249 @@
                   Insurance
               %h3.sub-title
                 Independant Insurance Broker
-    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000"}    
-      %article
-        .container
-          .content-info
-            .slide
-              %img{:src => "/img/balboa/desktop_01.png"}
-              %img{:src => "/img/balboa/desktop_02.png"}
-              %img{:src => "/img/balboa/desktop_03.png"}
-          .sidebar
-            %section
+    .animsition{:"data-animsition-out-class" => "fade-out-down-sm", :"data-animsition-out-duration"=>"1000", :"data-animsition-in-class" => "fade-in-up-sm", :"data-animsition-out-duration"=>"500"}  
+      %section.project-section 
+        .row
+          .project-content.project-content-sm.navigation-sidebar.anchor-nav
+            %ul
+              %li
+                %a{:href => "#article-1", :id =>"anchor1"}
+                  Overview
+              %li
+                %a{:href => "#article-2", :id =>"anchor2"}
+                  Portal
+              %li
+                %a{:href => "#article-3", :id =>"anchor3"}
+                  Recruiting
+              %li
+                %a{:href => "#article-4", :id =>"anchor4"}
+                  Marketing Material 
+          .project-content.project-content-lg 
+            %section  
               .project-side-header-label
                 %h4
                   Overview
               %h2.intro-header
-                Insurance you can trust. 
+                Commerce Home Mortgage Wholesale values new perspectives and creative ideas
               %p.intro-copy
-                Balboa Pacific is an independent agency in the business of helping people feel secure without breaking the bank. They’ve built a reputation on trust via word of mouth. 
-              -# .project-side-header-label
-              -#   %h4
-              -#     Objective
-              %h2.intro-header
-                How do we convey honesty? 
+                Commerce Home Mortgage Wholesale aspires to treat wholesale lending with a start-up mentality, by constantly re-evaluating antiquated processes full of red tape and rigid structure that slows down big banks, bringing fresh new ideas and experiences to their clients.
               %p.intro-copy
-                The objective of this rebrand was to explore, develop and define a brand vision for an independent insurance agency providing a learning experience for people in need of insurance. I built the Balboa Pacific identity from the concept of ease and trust, utilizing elements that flow into each other to create form. 
-              %p.intro-copy
-                Balboa Pacific is an independent agency in the business of helping people feel secure without breaking the bank. They’ve built a reputation on trust via word of mouth. The design direction seeks to clarify the complexities of insurance, providing a clear view of what options are available to the insured.
-
-
+                Commerce Home Mortgage wanted to elevate their wholesale channel. After our initial brief, we discussed possible routes and solutions. We reflected on areas they felt needed refining. After a few discussions and meetings we determined that we needed to: 
+          .project-content.project-content-md
+            &nbsp; 
+        %article.project-wrapper#article-1
+          .project-content.project-content-sm
+            &nbsp; 
+          .project-content.project-content-lg
+            .carousel
+              .slide
+                %img{:src => "img/balboa/desktop_01.png", :alt => ""}/
+              .slide
+                %img{:src => "img/balboa/desktop_02.png", :alt => ""}/
+              .slide
+                %img{:src => "img/balboa/desktop_03.png", :alt => ""}/
+          .project-content.project-content-md.project-summary.summary#summary1 
+            .project-side-header-label
+              %h4
+                Overview
+            %h2
+              Buying a home is a complex and emotional experience that can be difficult to tackle. 
+            %p
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive.
+          .project-content.project-content-xl
+            .project-side-header-label.project-label
+              %h4
+                Website Screens
+            .carousel-slides
+              .slide  
+                %img{:src => "img/wholesale/website/CHMW-gradient-Map-01.jpg", :alt => ""}/
+              .slide  
+                %img{:src => "img/wholesale/website/rates.jpg", :alt => ""}/
+              .slide  
+                %img{:src => "img/wholesale/website/resource-forms.jpg", :alt => ""}/
+              .slide  
+                %img{:src => "img/wholesale/website/submit-loan.jpg", :alt => ""}/
+              .slide  
+                %img{:src => "img/wholesale/website/turn-times.jpg", :alt => ""}/
+        %article.project-wrapper#article-2
+          .project-content.project-content-sm
+            &nbsp;   
+          .project-content.project-content-md.project-summary.summary#summary2 
+            .project-side-header-label
+              %h4
+                Marketing Portal
+            %h2
+              Delivering the tools for success.
+            %p
+              Headquartered in San Ramon, California and originally founded in 1994 by Simonich Corporation and Bank of Walnut Creek, Commerce Home Mortgage aspires to simplify the application process for potential clients, streamlining  recruitment, and providing those employees with the right tools needed to thrive. 
+          .project-content.project-content-lg
+            .carousel
+              .slide
+                %img{:src => "img/wholesale/Portal.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/Portal_Resources.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/Portal_Request.png", :alt => ""}/
+              .slide
+                %img{:src => "img/wholesale/Portal_Presentations.png", :alt => ""}/
+        .footer
+          .footer-element.prev-project.wholesale-thmb
+            %a{:href => "CHMwholesale.html", :class => "animsition-link"}
+              Commerce Home Mortgage Wholesale
+              %span
+                Case Study
+          .footer-element.contact-me
+            %a
+              Contact Me
+          .footer-element.next-project
+            %a{:href => "modemedia.html", :class => "animsition-link"}
+              Mode Media
+              %span
+                Project Samples
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
-    :javascript
-      window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollToFixed/1.0.8/jquery-scrolltofixed.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/jquery.gsap.min.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"}
     %script{:src => "js/scripts.js"}
-    %script{:src => "js/carousel.js"}
-    %script{:src => "js/linked.js"}
-    %script{:src => "js/jquery.sticky-kit.min.js"}
     :javascript
-      $(".sticky").stick_in_parent();
-      $(".slide").owlCarousel({
-        nav: false,
-        center: true,
-        items:1
+      
+      $(document).ready(function(){
+
+        $('.carousel').slick({
+          dots: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          centerMode: false,
+          arrows: true,
+          autoplay: false,
+          fade: true,
+          cssEase: 'linear'
+        });
+
+        $('.carousel-slides').slick({
+          dots: false,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 2,
+          centerMode: false,
+          arrows: true,
+          nextArrow: '<span class="next-btn"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>',
+          autoplay: false
+        });
+
+        $('.anchor-nav').scrollToFixed();
+
+        // Init controller
+        var controller = new ScrollMagic.Controller({
+          globalSceneOptions: {
+            duration: $('article').height(),
+            triggerHook: .025,
+            reverse: true
+          }
+        });
+
+        var scenes = {
+          'intro': {
+            'intro': 'intro-anchor'
+          },
+          'scene2': {
+            'article-1': 'anchor1'
+          },
+          'scene3': {
+            'article-2': 'anchor2'
+          },
+          'scene4': {
+            'article-3': 'anchor3'
+          },
+          'scene5': {
+            'article-4': 'anchor4'
+          }
+        }
+
+        for(var key in scenes) {
+          // skip loop if the property is from prototype
+          if (!scenes.hasOwnProperty(key)) continue;
+
+          var obj = scenes[key];
+
+          for (var prop in obj) {
+            // skip loop if the property is from prototype
+            if(!obj.hasOwnProperty(prop)) continue;
+
+            new ScrollMagic.Scene({ triggerElement: '#' + prop })
+              .setClassToggle('#' + obj[prop], 'active')
+              .addTo(controller);
+          }
+        }
+
+
+        // Change behaviour of controller
+        // to animate scroll instead of jump
+        controller.scrollTo(function(target) {
+
+          TweenMax.to(window, 0.8, {
+            scrollTo : {
+              y : target,
+              autoKill : true // Allow scroll position to change outside itself
+            },
+            ease : Power3.easeInOut
+          });
+
+        });
+
+
+        // Bind scroll to anchor links using Vanilla JavaScript
+        var anchor_nav = document.querySelector('.anchor-nav');
+
+        anchor_nav.addEventListener('click', function(e) {
+          var target = e.target,
+              id     = target.getAttribute('href');
+
+          if(id !== null) {
+            if(id.length > 0) {
+              e.preventDefault();
+              controller.scrollTo(id);
+
+              if(window.history && window.history.pushState) {
+                history.pushState("", document.title, id);
+              }
+            }
+          }
+        });
+
+
+
+        //  Bind scroll to anchor links using jQuery
+
+        $(document).on("click", "a[href^=#]", function(e) {
+          var id = $(this).attr("href");
+
+          if($(id).length > 0) {
+            e.preventDefault();
+
+            // trigger scroll
+            controller.scrollTo(id);
+
+            // If supported by the browser we can also update the URL
+            if (window.history && window.history.pushState) {
+              history.pushState("", document.title, id);
+            }
+          }
+
+        });
+
       });
+
+
+
+
+
+
 
