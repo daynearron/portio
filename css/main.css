@@ -814,6 +814,9 @@ nav,
   border-color: #fff !important;
   color: #fff; }
 
+.current-events .ticker-wrapper .ticker .ticker__item {
+  color: #202020; }
+
 .current-events .ticker-wrapper .ticker .ticker__item,
 .current-events .ticker-wrapper .ticker .ticker__item a {
   transition: all 0.4s ease-in-out; }
@@ -846,22 +849,22 @@ nav,
   transition: all 0.4s ease-in-out; }
 
 .project-thumb-container li:first-child:hover ~ li:last-child {
-  background: #0056B8; }
+  background-color: #0056B8; }
 
 .project-thumb-container li:nth-child(2):hover ~ li:last-child {
-  background: #e53d35; }
+  background-color: #e53d35; }
 
 .project-thumb-container li:nth-child(3):hover ~ li:last-child {
-  background: #01506A; }
+  background-color: #01506A; }
 
 .project-thumb-container li:nth-child(4):hover ~ li:last-child {
-  background: #333336; }
+  background-color: #333336; }
 
 .project-thumb-container li:nth-child(5):hover ~ li:last-child {
-  background: #E2BA21; }
+  background-color: #E2BA21; }
 
 .project-thumb-container li:nth-child(6):hover ~ li:last-child {
-  background: #d9d9d9; }
+  background-color: #d9d9d9; }
 
 html {
   font-size: 1vw; }
@@ -967,7 +970,8 @@ nav p {
   color: #73674a; }
 
 .title {
-  font-size: 6em; }
+  font-size: 6em;
+    font-size-line-height: 0.98em; }
 
 .sub-title {
   font-size: 2em;
@@ -1172,7 +1176,37 @@ body {
 
 .welcome {
   height: 100%;
-  background-color: #292929; }
+  background: linear-gradient(339deg, #292929, #000000, #222222);
+  background-size: 600% 600%;
+  -webkit-animation: subtleBG 40s ease infinite;
+  -moz-animation: subtleBG 40s ease infinite;
+  animation: subtleBG 40s ease infinite; }
+  .welcome .container {
+    height: 100%; }
+
+@-webkit-keyframes subtleBG {
+  0% {
+    background-position: 30% 0%; }
+  50% {
+    background-position: 71% 100%; }
+  100% {
+    background-position: 30% 0%; } }
+
+@-moz-keyframes subtleBG {
+  0% {
+    background-position: 30% 0%; }
+  50% {
+    background-position: 71% 100%; }
+  100% {
+    background-position: 30% 0%; } }
+
+@keyframes subtleBG {
+  0% {
+    background-position: 30% 0%; }
+  50% {
+    background-position: 71% 100%; }
+  100% {
+    background-position: 30% 0%; } }
 
 body:after, body:before,
 .project-section:after,
@@ -1414,6 +1448,7 @@ article section {
   .footer-project-nav li {
     margin: 0 !important;
     position: relative;
+    z-index: 9;
     width: calc(33.3333333333% - 26.6666666667px);
     float: left;
     margin-left: 20px; }
@@ -1460,7 +1495,8 @@ article section {
     max-width: 90%; }
   .project-thumb-container .bg,
   .footer-project-nav .bg {
-    display: none; }
+    width: 0;
+    height: 0; }
 
 .project-title-block {
   padding-top: 75px; }
