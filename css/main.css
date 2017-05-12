@@ -990,7 +990,8 @@ nav p {
 .project-content {
   color: #757575; }
   .project-content h2 {
-    font-size: 24px; }
+    font-size: 24px;
+    color: #272727; }
   .project-content h2,
   .project-content p {
     font-weight: 300; }
@@ -1730,7 +1731,8 @@ article section {
 
 .project-content-xl {
   width: 85%;
-  margin-left: 15%; }
+  margin-left: 15%;
+  padding: 0px !important; }
 
 .carousel {
   width: 100%; }
