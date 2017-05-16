@@ -2491,6 +2491,19 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/CHMRetail copy.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/CHMRetail copy.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
+		},
 	"\/CHMRetail.haml": {
 		"cDA": 0,
 		"eHT": 0,
@@ -2509,6 +2522,19 @@
 		"oA": 1,
 		"oAP": "\/CHMRetail.html",
 		"oF": 0
+		},
+	"\/CHMWholesale copy.haml": {
+		"cDA": 0,
+		"eHT": 0,
+		"ft": 256,
+		"nEA": 0,
+		"oA": 0,
+		"oAP": "\/CHMWholesale copy.html",
+		"oF": 0,
+		"oFM": 2,
+		"oS": 0,
+		"uDQ": 0,
+		"uUN": 0
 		},
 	"\/CHMWholesale.haml": {
 		"cDA": 0,
