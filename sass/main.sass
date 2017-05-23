@@ -646,8 +646,14 @@ article
 
 
 
-.carousel
-	width: 100%
+.carousel,
+.carousel-slides
+	@include grid-column(12)
+	@include grid-media($custom-neat-grid)
+		@include grid-column(10)
+		@include grid-push(1)
+
+.carousel 
 	.slide
 		width: 100%
 		padding: 0px 0px 15px 0px	
@@ -667,16 +673,9 @@ article
 			// 	box-shadow: 0 10px 15px -15px rgba(50,50,93,.3), 0 15px 20px -20px rgba(0,0,0,.1)
 
 .carousel-slides
-	// margin-left: -1em !important
-	// &:after
-	// 	content: ''
-	// 	display: block
-	// 	width: calc(1em + 15px)
-	// 	height: 100%
-	// 	position: absolute
-	// 	top: 0
-	// 	right: 0
-	// 	background: #fafafa
+	@include grid-column(10)
+	@include grid-push(1)
+
 	.slide
 		// padding: 0px 0px 15px 0px
 		// width: calc(50% - 15)
@@ -799,7 +798,7 @@ article
 
 .projects 
 	padding: 50px 0
-	background-color: #FDF8F4
+	background-color: #Fafafa
 	@include grid-container
 	
 .project-well
@@ -811,6 +810,7 @@ article
 	
 .project-article
 	padding-bottom: 50px
+	@include clearfix
 
 .project-description
 	padding-bottom: 30px
