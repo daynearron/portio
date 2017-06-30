@@ -15,6 +15,7 @@
     </script>
   </head>
   <body class='welcome'>
+    <!-- #shape -->
     <div class='container animsition'>
       <div class='header'>
         <div class='contact'>
@@ -54,13 +55,13 @@
               </div>
             </div>
             <div class='social'>
-              <a class='' href='#'>
+              <a class='' href='http://www.facebook.com/daynewatai' target='_BLANK'>
                 Facebook
               </a>
-              <a class='' href='#'>
+              <a class='' href='http://www.twitter.com/daynearron' target='_BLANK'>
                 Twitter
               </a>
-              <a class='' href='#'>
+              <a class='' href='http://www.instagram.com/daynewatai' target='_BLANK'>
                 Instagram
               </a>
             </div>
@@ -204,6 +205,12 @@
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js'></script>
+    <script src='js/parallax.js'></script>
     <script src='js/scripts.js'></script>
+    <script>
+      var scene = $('#scene').get(0)
+      var parallax = new Parallax(scene)
+    </script>
   </body>
 </html>

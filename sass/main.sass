@@ -17,10 +17,20 @@
 html,
 body
 	height: 100%
-	// background-color: #fafafa
-	background-color: #292929
+	background: #1a2022 /* Old browsers */
 	*
 		box-sizing: border-box
+
+body:after
+	content: ''
+	display: block
+	position: fixed
+	top: 0
+	left: 0
+	background-color: #fafafa
+	width: 100%
+	height: 2px
+	
 
 .welcome
 	height: 100%
@@ -159,7 +169,7 @@ article
 		display: block
 		position: relative
 		float: left
-		background-color: #292929
+		background-color: rgba(26, 32, 34, 0.8)
 		// border-right: 1px solid tint(#292929, 35%)
 		transition: all 0.4s ease-in-out
 		color: #fff
@@ -223,6 +233,9 @@ article
 		overflow: hidden
 		margin-top: 2px
 		@include clearfix
+		&:hover
+			a
+				opacity: 0.1
 		a
 			// background: red
 			display: block
@@ -234,14 +247,25 @@ article
 			position: relative
 			transition: all 0.4s ease-in-out
 			&:hover
-				color: #635636
+				opacity: 1
+				transition: all 0.4s ease-in-out
 				text-shadow: 1px 1px 5px shade(#292929, 10%)
-				// background: #292929
-				-moz-box-shadow: inset 0 -2px 0 0 #635636
-				-webkit-box-shadow: inset 0 -2px 0 0 #635636
-				box-shadow: inset 0 -2px 0 0 #635636
+				animation: highlight 2s
+				animation-iteration-count: infinite
+				animation-timing-function: linear
 
 
+
+@keyframes highlight
+	0%
+		color: #A4A19F
+		text-shadow: 0px 0px 15px shade(#292929, 10%)
+	50%
+		color: #fff
+		text-shadow: 0px 0px 45px shade(#292929, 80%)
+	100%
+		color: #A4A19F
+		text-shadow: 1px 1px 15px shade(#292929, 10%)
 
 .project-side-label
 	display: block
@@ -315,6 +339,10 @@ article
 			position: relative
 			-webkit-transform-origin: 50%  51%
 			transform-origin: 50%  51%
+			&:hover
+				.arrow:after
+					opacity: 1
+					right: -18px
 			.arrow
 				position: absolute
 				top: 57%
@@ -331,11 +359,27 @@ article
 					text-transform: uppercase
 					letter-spacing: 0.98px
 				svg
-					margin-left: 12px
-					margin-top: -4px
-					-ms-transform: rotate(-90deg) /* IE 9 */
-					-webkit-transform: rotate(-90deg) /* Safari */
-					transform: rotate(-90deg)
+					display: none
+					// margin-left: 12px
+					// margin-top: -4px
+					// height: 8px
+					// -ms-transform: rotate(-90deg) /* IE 9 */
+					// -webkit-transform: rotate(-90deg) /* Safari */
+					// transform: rotate(-90deg)
+				&:after
+					content: ''
+					display: block
+					position: absolute
+					right: -8px
+					opacity: 0
+					top: 12px
+					width: 0 
+					height: 0 
+					border-top: 4px solid transparent
+					border-bottom: 4px solid transparent
+					transition: all 350ms ease
+
+					border-left: 4px solid #fafafa
 	p
 		max-width: 90%
 	.bg
@@ -369,14 +413,16 @@ article
 	width: 100%
 	padding: 6em 0
 	// padding-bottom: 50px
-	.intro-copy
-		// padding: 3em 0 1em 0
-		// max-width: 80%
+	&-copy,
+	&-header
+		width: 60%
+		// border: 1px solid
 	&.section-white
 		z-index: 99
 		position: relative
 		background-color: #fff
 		color: tint(#262626, 25%)
+
 
 
 .left-column,
@@ -814,3 +860,9 @@ article
 
 .project-description
 	padding-bottom: 30px
+
+#shape
+	opacity: 0.5
+	// left: -50%
+	// height: 120%
+	position: absolute

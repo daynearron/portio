@@ -12,6 +12,7 @@
       :javascript
         try{Typekit.load({ async: true });}catch(e){}
   %body.welcome
+    / #shape
     .container.animsition
       .header 
         .contact
@@ -38,11 +39,11 @@
                     %a{:href => "http://www.cartoonnetwork.com/video/steven-universe/", :target => "_BLANK"}
                       Steven Universe
             .social
-              %a{:href => "#", :class => ""}
+              %a{:href => "http://www.facebook.com/daynewatai", :class => "", :target =>"_BLANK"}
                 Facebook
-              %a{:href => "#", :class => ""}
+              %a{:href => "http://www.twitter.com/daynearron", :class => "", :target =>"_BLANK"}
                 Twitter
-              %a{:href => "#", :class => ""}
+              %a{:href => "http://www.instagram.com/daynewatai", :class => "", :target =>"_BLANK"}
                 Instagram
       %ul.project-thumb-container
         %li.project-thmb.project-thmb-01{:"data-ul-class"=>"blue"}
@@ -135,9 +136,12 @@
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')
     %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/animsition/3.6.0/js/jquery.animsition.js"}
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"}
+    %script{:src => "js/parallax.js"}
     %script{:src => "js/scripts.js"}
-
-
+    :javascript
+      var scene = $('#scene').get(0)
+      var parallax = new Parallax(scene)
 
 
 
