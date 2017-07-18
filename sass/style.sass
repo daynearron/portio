@@ -159,18 +159,25 @@ nav,
 .project-thumb-container li:last-child
 	transition: all 0.4s ease-in-out
 
-// .project-thumb-container li:first-child:hover ~ li:last-child
-// 	background-color: #0056B8
-// .project-thumb-container li:nth-child(2):hover ~ li:last-child
-// 	background-color: tint(#e2231a, 12%)
-// .project-thumb-container li:nth-child(3):hover ~ li:last-child
-// 	background-color: #01506A
-// .project-thumb-container li:nth-child(4):hover ~ li:last-child
-// 	background-color: #333336
-// .project-thumb-container li:nth-child(5):hover ~ li:last-child
-// 	background-color: #E2BA21
-// .project-thumb-container li:nth-child(6):hover ~ li:last-child
-// 	background-color: #d9d9d9
+.project-thumb-container li:last-child .layer
+	transition: opacity 0.4s ease-in-out
+
+.project-thumb-container li:first-child:hover ~ li:last-child .chmr
+	opacity: 0.2
+.project-thumb-container li:nth-child(2):hover ~ li:last-child .chmw
+	opacity: 0.2
+.project-thumb-container li:nth-child(3):hover ~ li:last-child .balboa
+	// background-color: #01506A
+	opacity: 0.2
+.project-thumb-container li:nth-child(4):hover ~ li:last-child .mode
+	// background-color: #333336
+	opacity: 0.2
+.project-thumb-container li:nth-child(5):hover ~ li:last-child .extra
+	// background-color: #E2BA21
+	opacity: 0.2
+.project-thumb-container li:nth-child(6):hover ~ li:last-child .photo
+	// background-color: #d9d9d9
+	opacity: 0.2
 
 
 

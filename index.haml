@@ -129,9 +129,13 @@
                 View Project
               %svg{:height => "7.1", :viewbox => "0 0 12.7 7.1", :width => "12.7"}
                 %polyline{:fill => "none", :points => "12.4,0.4 6.4,6.4 0.4,0.4 ", :stroke => "#FFFFFF", "stroke-miterlimit" => "10"}
-
-        %li.project-thmb.bg
-          &nbsp;
+        %li.project-thmb.bg#scene
+          .layer.chmr{:"data-depth"=>"0.10"}
+          .layer.chmw{:"data-depth"=>"0.20"}
+          .layer.balboa{:"data-depth"=>"0.10"}
+          .layer.mode{:"data-depth"=>"0.20"}
+          .layer.extra{:"data-depth"=>"0.10"}
+          .layer.photo{:"data-depth"=>"0.20"}
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"}
     :javascript
       window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')

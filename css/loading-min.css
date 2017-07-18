@@ -1,0 +1,39 @@
+/* loading option */
+.animsition-loading {
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -16px;
+  margin-top: -16px;
+  z-index: 100; }
+
+.animsition-loading {
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: .8s;
+          animation-duration: .8s;
+  -webkit-animation-name: animsition-loading;
+          animation-name: animsition-loading; }
+
+@-webkit-keyframes animsition-loading {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  40% {
+    -webkit-transform: scale(2);
+    transform: scale(2); } }
+
+@keyframes animsition-loading {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  40% {
+    -webkit-transform: scale(2);
+    transform: scale(2); } }
